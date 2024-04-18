@@ -4,7 +4,6 @@ from django.dispatch import receiver
 from django.conf import settings
 from google.cloud import texttospeech
 from externalApi.wellsaid import wellSaidApi
-from externalApi.microsoftTTS import microsoftApi
 import json,os
 
 import numpy as np
@@ -217,13 +216,6 @@ class AvatarSounds(models.Model):
             try:
                 config = json.loads(self.provider_id)
                 _res = wellSaidApi.generateSound(text,config,output)
-                return _res,''
-            except Exception as e:
-                return False,f"{e}"
-
-        elif self.provider == 'microsoft':
-            try:
-                _res = microsoftApi.generateSound(text,self.provider_id,output)
                 return _res,''
             except Exception as e:
                 return False,f"{e}"

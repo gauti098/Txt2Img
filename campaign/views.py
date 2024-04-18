@@ -449,22 +449,6 @@ class SoloCampignDetailsView(APIView):
             pass
         return (False,None)
 
-    def get_mainVideo_obj(self,slug):
-        try:
-            _inst = newVideoCreatorModels.TempVideoCreator.objects.get(slug=slug)
-            return (2,_inst)
-        except:
-            return self.get_group_handler(slug)
-        
-
-    def get_mainVideoGenerate_obj(self,videoCreatorInst,uniqueIdentity):
-        try:
-            _inst = newVideoCreatorModels.MainVideoGenerate.objects.get(videoCreator=videoCreatorInst,uniqueIdentity__iexact=uniqueIdentity)
-            return (True,_inst)
-        except:
-            pass
-        return (False,None)
-
     def get_video_generate(self,uid):
         try:
             return (True,newVideoCreatorModels.MainVideoGenerate.objects.get(id=uid))
@@ -513,26 +497,18 @@ class SoloCampignDetailsView(APIView):
         salesPageDetails = {'salesPage': None,'favicon': {'media_file': "https://salespage.autogenerate.ai/autogenFavicon.svg"}}
 
 
-        is_exist,_videoCreatorObj = self.get_mainVideo_obj(pk)
-        if is_exist == 2 and uid:
-            type_ = 4
-            is_exist,inst = self.get_mainVideoGenerate_obj(_videoCreatorObj,uid)
-        elif is_exist:
-            type_ = 5
-            inst = _videoCreatorObj
-        
-        # is_exist,_shortUrlObj = self.get_short_url_obj(pk)
-        # if is_exist:
-        #     if _shortUrlObj._type == 2:
-        #         # NEWVIDEOCREATOR_MAINVIDEOGENERATE
-        #         type_ = 4
-        #         is_exist,inst = self.get_video_generate(_shortUrlObj.mainId)
-        #     elif _shortUrlObj._type == 3:
-        #         # NEWVIDEOCREATOR_GROUPHANDLER
-        #         type_ = 5
-        #         is_exist,inst = self.get_video_generate_batch(_shortUrlObj.mainId,uniqueIdentity=uid)
-        #         if is_exist == 2:
-        #             type_ = 4
+        is_exist,_shortUrlObj = self.get_short_url_obj(pk)
+        if is_exist:
+            if _shortUrlObj._type == 2:
+                # NEWVIDEOCREATOR_MAINVIDEOGENERATE
+                type_ = 4
+                is_exist,inst = self.get_video_generate(_shortUrlObj.mainId)
+            elif _shortUrlObj._type == 3:
+                # NEWVIDEOCREATOR_GROUPHANDLER
+                type_ = 5
+                is_exist,inst = self.get_video_generate_batch(_shortUrlObj.mainId,uniqueIdentity=uid)
+                if is_exist == 2:
+                    type_ = 4
         else:
             if uid:
                 if uid=='campaign_test':

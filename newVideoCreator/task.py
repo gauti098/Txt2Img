@@ -10,8 +10,9 @@ from django.conf import settings
 from newVideoCreator.utils.generateSceneMusic import generateAudioWithSeprateMusic
 from utils.common import convertFloat, convertInt
 
-
-def extractVideoFramesFun(_videoId):
+@shared_task(bind=True)
+def extractVideoFrames(self,data):
+    _videoId = data["videoId"]
     try:
         _crntQuery = newVideoCreatorModels.MainVideoGenerate.objects.get(id=_videoId)
         _taskInst = _crntQuery.videoCreator
@@ -45,10 +46,6 @@ def extractVideoFramesFun(_videoId):
     except Exception as e:
         return f"Video Frame Extract Error: {_videoId}, {e}"
 
-@shared_task(bind=True)
-def extractVideoFrames(self,data):
-    return extractVideoFramesFun(data["videoId"])
-
 
 @shared_task(bind=True)
 def sceneRenderComplete(self,sceneIndex,data={}):
@@ -67,45 +64,29 @@ def sceneRenderComplete(self,sceneIndex,data={}):
 
 # from newVideoCreator.serializers import  VideoCreatorSerializer
 import newVideoCreator
-
-def addVideoToGenerateSync(_id,isForced=False):
-    try:
-        _inst = newVideoCreatorModels.MainVideoGenerate.objects.get(id=_id)
-        _inst.setDefaultMergeTag()
-        _inst.videoCreator.addDefaultSalesPage()
-        _inst.videoCreator.updateAllMergeTag()
-        _inst.addSceneToAiTask()
-        _inst.saveAllThumbnail()
-        _inst.setThumbnail()
-        generateAudioWithSeprateMusic(_id)
-        extractVideoFramesFun(_id)
-        # exract video frames
-        #extractVideoFrames.delay({"videoId": _id})
-        return 'completed'
-    except Exception as e:
-        return f"addVideoToGenerate Error: {_id}, {e}"
-
 from events import fire
 @shared_task(bind=True)
-def addVideoToGenerate(self,_id,isForced=False):
+def addVideoToGenerate(self,_id):
     try:
         _inst = newVideoCreatorModels.MainVideoGenerate.objects.get(id=_id)
         _inst.setDefaultMergeTag()
         _inst.videoCreator.addDefaultSalesPage()
-        _inst.videoCreator.updateAllMergeTag()
         _inst.addSceneToAiTask()
         _inst.saveAllThumbnail()
-        _inst.setThumbnail()
-
-        generateAudioWithSeprateMusic(_id)
+        _inst.videoCreator.updateAllMergeTag()
         
         # exract video frames
-        #extractVideoFrames.delay({"videoId": _id})
-        
+        extractVideoFrames.delay({"videoId": _id})
+       
+        _inst.setThumbnail()
         commandData = newVideoCreator.serializers.VideoCreatorSerializer(_inst.videoCreator).data
         fire.eventFire(_inst.videoCreator.user,"videoEditor.list.add",commandData)
-        extractVideoFramesFun(_id)
 
+        if not _inst.isSoundGenerated:
+            try:
+                generateAudioWithSeprateMusic(_id)
+            except Exception as e:
+                print(f"Video Audio Generate Error: {_id}, {e}")
     except Exception as e:
         return f"addVideoToGenerate Error: {_id}, {e}"
 

@@ -110,13 +110,10 @@ class MainVideoGenerateCampaignSerializer(serializers.ModelSerializer):
             data['allMergeTag'] = json.loads(data["allMergeTag"])
         except:
             pass
-
-        data["campaignUrl"] = f"https://autovid.ai/p/{instance.videoCreator.slug}/{instance.uniqueIdentity}"
-        # if instance._shortUrl:
-        #     #data["campaignUrl"] = instance._shortUrl.getUrl()
-        #     data["campaignUrl"] = f"https://autovid.ai/p/{instance.videoCreator.slug}/{instance.uniqueIdentity}"
-        # else:
-        #     data["campaignUrl"] = f"https://autovid.ai/p/{data['id']}?email=video_creator"
+        if instance._shortUrl:
+            data["campaignUrl"] = instance._shortUrl.getUrl()
+        else:
+            data["campaignUrl"] = f"https://autovid.ai/p/{data['id']}?email=video_creator"
         return data
     
 class MainVideoGenerateSoloMailSerializer(serializers.ModelSerializer):
@@ -136,28 +133,18 @@ class MainVideoGenerateSoloMailSerializer(serializers.ModelSerializer):
         except:
             pass
 
-        data["campaignUrl"] = f"https://autovid.ai/p/{instance.videoCreator.slug}/{instance.uniqueIdentity}"
-
-        # if instance._shortUrl:
-        #     #data["campaignUrl"] = instance._shortUrl.getUrl()
-        #     data["campaignUrl"] = f"https://autovid.ai/p/{instance.videoCreator.slug}/{instance.uniqueIdentity}"
-        # else:
-        #     data["campaignUrl"] = f"https://autovid.ai/p/{data['id']}?email=video_creator"
+        if instance._shortUrl:
+            data["campaignUrl"] = instance._shortUrl.getUrl()
+        else:
+            data["campaignUrl"] = f"https://autovid.ai/p/{data['id']}?email=video_creator"
 
         try:
             if instance.videoCreator.mailClient:
-                data["code"] = instance.videoCreator.mailClient.getCode(instance.videoCreator.slug,instance.uniqueIdentity,newLink=True)
+                data["code"] = instance.videoCreator.mailClient.getCode(data['id'],"video_creator")
             else:
-                data["code"] = campaignModels.EmailClient.getCode(None,instance.videoCreator.slug,instance.uniqueIdentity,newLink=True)
+                data["code"] = campaignModels.EmailClient.getCode(None,data["id"],"video_creator")
         except:
-            data["code"] = campaignModels.EmailClient.getCode(None,instance.videoCreator.slug,instance.uniqueIdentity,newLink=True)
-        # try:
-        #     if instance.videoCreator.mailClient:
-        #         data["code"] = instance.videoCreator.mailClient.getCode(data['id'],"video_creator")
-        #     else:
-        #         data["code"] = campaignModels.EmailClient.getCode(None,data["id"],"video_creator")
-        # except:
-        #     data["code"] = campaignModels.EmailClient.getCode(None,data["id"],"video_creator")
+            data["code"] = campaignModels.EmailClient.getCode(None,data["id"],"video_creator")
         return data
 
 
@@ -171,19 +158,20 @@ class BatchMailMinSerializer(serializers.ModelSerializer):
         data = super(BatchMailMinSerializer,self).to_representation(instance)
         data["progress"] = int((data["generatedCount"]/data["totalCount"])*100)
 
-        data["previewUrl"] = f"https://autovid.ai/p/{data['id']}/"
-        # if instance._shortUrl:
-        #     data["previewUrl"] = instance._shortUrl.getUrl()
-        #     slug = instance._shortUrl.slug
-        #     newLink = True
-        # else:
-        #     data["previewUrl"] = f"https://autovid.ai/p/{data['id']}?email=campaign_test__batch__"
+        slug = data["id"]
+        newLink = False
+        if instance._shortUrl:
+            data["previewUrl"] = instance._shortUrl.getUrl()
+            slug = instance._shortUrl.slug
+            newLink = True
+        else:
+            data["previewUrl"] = f"https://autovid.ai/p/{data['id']}?email=campaign_test__batch__"
 
         try:
             _mcInst = campaignModels.EmailClient.objects.get(id=instance.mailClient)
-            data["code"] = _mcInst.getCode(instance.videoCreator.slug,newLink=True)
+            data["code"] = _mcInst.getCode(slug,newLink=newLink)
         except:
-            data["code"] = campaignModels.EmailClient.getCode(None,instance.videoCreator.slug,newLink=True)
+            data["code"] = campaignModels.EmailClient.getCode(None,slug,newLink=newLink)
         
         return data
 
@@ -357,16 +345,16 @@ class VideoDetailsSerializer(serializers.ModelSerializer):
                 data['mainVideoGenerate']['message'] = "The video could not be generated. <br/>We are working to address the issue."
             allScene = ImageCreator.objects.filter(_videoId=data["id"])
 
-            data["link"] = f"https://autovid.ai/p/{instance.slug}/{instance.mainVideoGenerate.uniqueIdentity}"
-            # if instance.mainVideoGenerate._shortUrl:
-            #     data["link"] = instance.mainVideoGenerate._shortUrl.getUrl()
-            #     slug = instance.mainVideoGenerate._shortUrl.slug
-            #     newLink=True
-            #     uniqueIdentity = False
-            # else:
-            #     #data['link'] = f"https://autovid.ai/p/{instance.mainVideoGenerate.id}?email=video_creator"
-            #     data["link"] = f"https://autovid.ai/p/{instance.slug}/{instance.mainVideoGenerate.uniqueIdentity}"
-                
+            slug = instance.mainVideoGenerate.id
+            newLink=False
+            uniqueIdentity = "video_creator"
+            if instance.mainVideoGenerate._shortUrl:
+                data["link"] = instance.mainVideoGenerate._shortUrl.getUrl()
+                slug = instance.mainVideoGenerate._shortUrl.slug
+                newLink=True
+                uniqueIdentity = False
+            else:
+                data['link'] = f"https://autovid.ai/p/{instance.mainVideoGenerate.id}?email=video_creator"
 
             
             if (not instance.isPersonalized) and instance.thumbnailInst:
@@ -385,13 +373,9 @@ class VideoDetailsSerializer(serializers.ModelSerializer):
                     data["code"] = campaignModels.EmailClient.getImageCode(_thumbnailUrl + _rawTag,_pageUrl + _rawTag)
             else:
                 if instance.mailClient:
-                    data["code"] = instance.mailClient.getCode(instance.slug,instance.mainVideoGenerate.uniqueIdentity,newLink=True)
+                    data["code"] = instance.mailClient.getCode(slug,uid = uniqueIdentity,newLink=newLink)
                 else:
-                    data["code"] = campaignModels.EmailClient.getCode(None,instance.slug,instance.mainVideoGenerate.uniqueIdentity,newLink=True)
-                # if instance.mailClient:
-                #     data["code"] = instance.mailClient.getCode(slug,uid = uniqueIdentity,newLink=newLink)
-                # else:
-                #     data["code"] = campaignModels.EmailClient.getCode(None,slug,uid = uniqueIdentity,newLink=newLink)
+                    data["code"] = campaignModels.EmailClient.getCode(None,slug,uid = uniqueIdentity,newLink=newLink)
 
 
 

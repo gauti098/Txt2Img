@@ -12,7 +12,7 @@ from shutil import move
 from pydub import AudioSegment
 
 def deleteClip(clipId,headers):
-    url = "https://studio.wellsaidlabs.com/api/graphql"
+    url = "https://wellsaidlabs.com/api/graphql"
     data = {
         "operationName":"DeleteClip",
         "variables":{"inputs":{"clipId":clipId}},
@@ -22,17 +22,28 @@ def deleteClip(clipId,headers):
     r = requests.post(url,data=json.dumps(data),headers=headers)
 
 def headerFormat(cookies):
-    headers = {
-        'host': 'studio.wellsaidlabs.com', 
-        'origin': 'https://studio.wellsaidlabs.com',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36', 
-        'accept': 'application/json', 
-        'accept-encoding': 'gzip, deflate, br', 
-        'accept-language': 'en-US,en;q=0.9', 
-        'connection': 'keep-alive', 
-        'content-type': 'application/json', 
-        'cookie': cookies,
-    }
+    new_raw_headers = f'''Host: wellsaidlabs.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/json; charset=utf-8
+Origin: https://wellsaidlabs.com
+Connection: keep-alive
+Referer: https://wellsaidlabs.com/dashboard/studio/122793b1-951d-446b-85d0-311e07ed0cc6
+Cookie: {cookies}
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+TE: trailers
+'''
+    headers = {}
+    for ii in new_raw_headers.split("\n"):
+        try:
+            kk,vv = ii.split(": ")
+            headers[kk]=vv
+        except:
+            pass
     return headers
 
 def readCookies(path):
@@ -107,9 +118,9 @@ def generateSound(text,config,outFilePath,retry=2):
                 _newConfig = config.copy()
                 _newConfig["text"] = text
                 _newConfig["projectId"] = _headers["projectId"]
-                _newConfig["version"] = config.get('version',"v9")
+                _newConfig["version"] = "v9"
 
-                apiUrl = 'https://studio.wellsaidlabs.com/api/v1/text_to_speech/stream'
+                apiUrl = "https://wellsaidlabs.com/api/v1/text_to_speech/stream"
                 r = requests.post(apiUrl,data=json.dumps(_newConfig),headers = _headers["headers"])
                 if r.status_code == 200:
                     _crntFileName = os.path.join(_cacheDir,f'{uuid4()}.mp3')

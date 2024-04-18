@@ -652,10 +652,8 @@ class GenerateVideoView(APIView):
             _inst = TempVideoCreator.objects.get(pk=pk)
             _token = request.GET.get('token',None)
             user = request.user
-            if user.id == _inst.user.id:
+            if user.id == _inst.user.id or _token == settings.SERVER_TOKEN:
                 return (True,_inst)
-            elif _token == settings.SERVER_TOKEN:
-                return (1,_inst)
             return (False,None)
         except TempVideoCreator.DoesNotExist:
             return (False,None)
@@ -663,25 +661,16 @@ class GenerateVideoView(APIView):
     def get(self, request,pk, format=None):
         is_exist,inst = self.get_object(pk,request)
         if is_exist:
-            if is_exist == 1:
-                if inst.mainVideoGenerate:
-                    inst.mainVideoGenerate.delete()
-                _gInst,ct = MainVideoGenerate.objects.get_or_create(videoCreator=inst)
+            _gInst,ct = MainVideoGenerate.objects.get_or_create(videoCreator=inst)
+            if ct:
                 inst.mainVideoGenerate = _gInst
                 inst.save()
-                
-                return Response(_gInst.generateVideo(isForced=True),status=status.HTTP_200_OK)
+                #newVideoCreatorTask.addVideoToGenerate.delay(f"{_gInst.id}")
+                _gInst.generateVideo()
             else:
-                _gInst,ct = MainVideoGenerate.objects.get_or_create(videoCreator=inst)
-                if ct:
+                if inst.mainVideoGenerate != _gInst:
                     inst.mainVideoGenerate = _gInst
                     inst.save()
-                    #newVideoCreatorTask.addVideoToGenerate.delay(f"{_gInst.id}")
-                    _gInst.generateVideo()
-                else:
-                    if inst.mainVideoGenerate != _gInst:
-                        inst.mainVideoGenerate = _gInst
-                        inst.save()
             # commandData = VideoCreatorSerializer(inst,context={'request': request}).data
             # fire.eventFire(inst.user,"videoEditor.list.add",commandData)
             return Response(True,status=status.HTTP_200_OK)
@@ -1312,7 +1301,7 @@ class CSVValidaterView(APIView,LimitOffset):
                 return Response(content,status=status.HTTP_200_OK)
         
             try:
-                allData = pd.read_csv(csvFileInst.media_file.path, engine='python')
+                allData = pd.read_csv(csvFileInst.media_file.path)
                 allData = allData.fillna("")
                 totalContacts = allData.shape[0]
                 if totalContacts==0:
@@ -1349,11 +1338,9 @@ class CSVValidaterView(APIView,LimitOffset):
                 return Response(content,status=status.HTTP_200_OK)
 
             # validate csv each column
-            allReadyAddedOne = MainVideoGenerate.objects.filter(videoCreator=inst).values_list('uniqueIdentity', flat=True)
-            
 
             #validate csv
-            alreadyAddedUniqueIdentifier = {uid: True for uid in allReadyAddedOne}
+            alreadyAddedUniqueIdentifier = {}
             finalData = []
             errors1 = {}
 
@@ -1529,11 +1516,11 @@ class EmailCSVHistoryDetailView(APIView,LimitOffset):
                 finalData = []
                 for _inst in results:
                     _rawData = json.loads(_inst.mergeTagValue)
-                    _crntSharingPageUrl = f"https://autovid.ai/p/{_inst.videoCreator.slug}/{_inst.uniqueIdentity}"
-                    # if _inst._shortUrl:
-                    #     _crntSharingPageUrl = _inst._shortUrl.getUrl()
-                    # else:
-                    #     _crntSharingPageUrl = f"https://autovid.ai/p/{_inst.videoCreator.slug}/{_inst.uniqueIdentity}"
+                    _crntSharingPageUrl = None
+                    if _inst._shortUrl:
+                        _crntSharingPageUrl = _inst._shortUrl.getUrl()
+                    else:
+                        _crntSharingPageUrl = f"https://autovid.ai/p/{_inst.id}?email=video_creator"
                     _rawData += [_inst.status,_crntSharingPageUrl]
                     finalData.append(_rawData)
                 #serializer = self.serializer_class(results, many=True,context={'request': request})
@@ -1565,7 +1552,7 @@ class GenerateCSVValidaterView(APIView,LimitOffset):
     def get(self,request,pk,format=None):
         is_exist,inst = self.get_object(pk,request)
         if is_exist:
-            _parseCsv = pd.read_csv(inst.csvFile.path, engine='python')
+            _parseCsv = pd.read_csv(inst.csvFile.path)
             allMergeTag = json.loads(inst.allMergeTag)
             allReqMtag = [f"{i[0]}_{i[1]}" for i in allMergeTag]
             onlyTextMTag = [i[0] for i in allMergeTag if i[1]=='text']

@@ -253,9 +253,6 @@ PEXELS_API_KEY = os.environ.get('PEXELS_API_KEY')
 UNSPLASH_API_KEY = os.environ.get('UNSPLASH_API_KEY','')
 PIXABAY_API_KEY = os.environ.get('PIXABAY_API_KEY')
 
-AZURE_SECRET_KEY = os.environ.get('AZURE_SECRET_KEY','')
-AZURE_REGION = os.environ.get('AZURE_REGION','')
-
 
 # Google configuration
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.environ.get('SOCIAL_AUTH_GOOGLE_OAUTH2_KEY') or ''

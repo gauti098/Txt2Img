@@ -81,8 +81,7 @@ class UserCurrentSubscription(models.Model):
     # inst.addCredit(creditData={"AVATAR_VIDEO": 1000,"NON_AVATAR_VIDEO": 1000,"PERSONALIZE_VIDEO": 1000,"PERSONALIZE_PAGE": 1000,"PERSONALIZE_THUMBNAIL": 1000,"PERSONALIZE_IMAGE": 1000})
     def addCredit(self,creditData={}):
         _allCreditChoices = CreditType.choices
-        self.subscription.all().delete()
-        #self.subscription.clear()
+        self.subscription.clear()
         for _crntCredit in _allCreditChoices:
             _cdInst = UserCredit(user=self.user,totalCredit=creditData.get(_crntCredit[1],0),creditType=_crntCredit[0])
             _cdInst.save()

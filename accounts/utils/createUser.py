@@ -43,7 +43,4 @@ def createUserWithSubscriptions(email,password,firstName=None,plan = "Pro",expir
 '''
 from accounts.utils import createUser
 createUser.createUserWithSubscriptions(email,'JayTomar26',"Jay Tomar")
-createUser.createUserWithSubscriptions('india.ashishjain@gmail.com','ashish',"Ashish",expiryDays=365)
-createUser.addSubscriptionPlan(user,'Pro',expiryDays=365)
-createUser.createUserWithSubscriptions("all@ycombinator.com",'yc',"Y Combinator")
 '''

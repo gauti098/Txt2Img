@@ -15,7 +15,7 @@ CURRENCY_TYPE = (
 
 PAYMENT_INFO = {
     0: {"name": "Standard","price": {"usd": 1500,"inr": 99900}},
-    1: {"name": "Pro","price": {"usd":2900,"inr": 219900}},
+    1: {"name": "Pro","price": {"usd":4500,"inr": 319900}},
     2: {"name": "Yearly Deal","price": {"usd": 4900,"inr": 349900}},
 }
 

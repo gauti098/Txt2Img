@@ -612,10 +612,8 @@ def generateAudioWithSeprateMusic(_videoGenId):
         _videoGenInst.isSoundGenerated = True
         _videoGenInst.save()
         _videoGenInst.updateProgress()
-        with open('/home/govind/VideoAutomation/logs/MusicGenerator.log','a') as f:
-            f.write(f"Id: {_videoGenInst.id} isGenerated: {str(_videoGenInst.isSoundGenerated)} Duration: {crntTotalDuration}\n")
         return True
     except Exception as e:
         logger.error(f"Unable to Generate Music Exception: {e} Stack: {str(traceback.format_exc())}")
-        open('/home/govind/VideoAutomation/logs/MusicGenerator.error','a').write(f"Exception: {e} Stack: {str(traceback.format_exc())}\n")
+        open('../logs/MusicGenerator.error','a').write(f"Exception: {e} Stack: {str(traceback.format_exc())}\n")
         return False

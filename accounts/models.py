@@ -158,8 +158,6 @@ CLIENT_SOURCE = (
 	(1,"autogenerate_requestaccess"),
 	(2,"autovid_getearlyaccess"),
 	(3,"autovid_corporateplan"),
-	(5,"autovid_proplan"),
-	(6,"autovid_standardplan"),
 	(4,"autovid_payment"),
 )
 CLIENT_SOURCE_DICT_MAP = {_i[0]:_i[1] for _i in CLIENT_SOURCE}
@@ -185,7 +183,7 @@ class EmailGrab(models.Model):
 		self.setIpToLocation()
 
 		# send mail for particular type
-		if self.clientSource in [3,5,6]:
+		if self.clientSource in [3]:
 			send_multi_format_email('contactusemail/contactus',{"contactType": CLIENT_SOURCE_DICT_MAP[self.clientSource].upper(),"email": self.email,"userIp": self.userIp,"country": self.location.country,"regionName": self.location.regionName,"city": self.location.city,"clientDevice": self.clientDevice,"browser": self.browser},"sehaj@autogenerate.ai")
 
 	def setIpToLocation(self):
