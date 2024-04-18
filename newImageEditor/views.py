@@ -610,59 +610,7 @@ class GenerateImageLinkView(APIView,LimitOffset):
 
 from base64 import b64decode
 def imageCreatorThubmnailFileView(request, slugs):
-
-    data = request.GET
-    _fullP = request.get_full_path()
-    _fullP = '?'.join(_fullP.split('?')[1:])[2:]
-    _rawGet = unquote(_fullP)
-    
-    try:
-        inst = ImageCreator.objects.get(slug=slugs)
-        mergeTagKey = json.loads(inst.mergeTag)
-        mergeTagValue = _rawGet.split("||")
-        _parseMTag = {}
-        for ii,_t in enumerate(mergeTagKey):
-            if len(mergeTagValue)>ii:
-                _parseMTag[f"{_t[0]}_{_t[1]}"] = mergeTagValue[ii]
-            else:
-                _parseMTag[f"{_t[0]}_{_t[1]}"] = ""
-
-        open('/home/govind/data.log','a').write(f"{slugs}__{_rawGet}__{json.dumps(_parseMTag)}\n")
-
-        thumbnailPath = inst.generateImageWithMTagRealtime(_parseMTag)[0]
-
-        isFound = os.path.isfile(thumbnailPath)
-        if isFound:
-            img = open(thumbnailPath,'rb')
-            return FileResponse(img)
-        else:
-            img = open(inst.thumbnail.path,'rb')
-            return FileResponse(img)
-    except:
-        _type = convertInt(request.GET.get('type','0'))
-        try:
-            _eid = slugs[IMAGECREATORGENERATED_UUID_TOTAL_NO:]
-            _uid = slugs[:IMAGECREATORGENERATED_UUID_TOTAL_NO]
-            _inst = None
-            if _type == 1:
-                _inst = ImageCreator.objects.get(id=int(str(b64decode(_eid),'utf-8')))
-            else:
-                _inst = ImageCreatorGenerated.objects.get(id=int(str(b64decode(_eid),'utf-8')))
-            if str(_inst._uid)[:IMAGECREATORGENERATED_UUID_TOTAL_NO] == _uid:
-                thumbnailPath = _inst.thumbnail.path
-                isFound = os.path.isfile(thumbnailPath)
-                if isFound:
-                    img = open(thumbnailPath,'rb')
-                    return FileResponse(img)
-        except:
-            pass
-
-    
-    # if thumbnail not exist return default
-    _thumbnailPath = os.path.join(settings.BASE_DIR,settings.MEDIA_ROOT,'404_with_reload.jpg')
-    return FileResponse(open(_thumbnailPath,'rb'))
-
-    '''_type = convertInt(request.GET.get('type','0'))
+    _type = convertInt(request.GET.get('type','0'))
     try:
         _eid = slugs[IMAGECREATORGENERATED_UUID_TOTAL_NO:]
         _uid = slugs[:IMAGECREATORGENERATED_UUID_TOTAL_NO]
@@ -682,5 +630,5 @@ def imageCreatorThubmnailFileView(request, slugs):
 
     # if thumbnail not exist return default
     _thumbnailPath = os.path.join(settings.BASE_DIR,settings.MEDIA_ROOT,'404_with_reload.jpg')
-    return FileResponse(open(_thumbnailPath,'rb'))'''
+    return FileResponse(open(_thumbnailPath,'rb'))
     

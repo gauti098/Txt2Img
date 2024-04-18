@@ -53,15 +53,11 @@ class ImageCreatorDetailSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         data = super(ImageCreatorDetailSerializer, self).to_representation(instance)
-        _thumbnailUrl =  f"https://autovid.ai/i/{instance.slug}?v=" #f'{settings.BASE_URL}/api/newimage/image/rt-generate/?uid={instance._uid}'
-        tagTypeMapping = {"text": 0,"url": 1,"email": 2}
+        _thumbnailUrl = f'{settings.BASE_URL}/api/newimage/image/rt-generate/?uid={instance._uid}'
         try:
             data["mergeTag"] = json.loads(instance.mergeTag)
-            for ii,_tag in enumerate(data["mergeTag"]):
-                if ii!=0:
-                    _thumbnailUrl += f'||{_tag[0]}'
-                else:
-                    _thumbnailUrl += f'{_tag[0]}'
+            for _tag in data["mergeTag"]:
+                _thumbnailUrl += f'&{_tag[0]}_{_tag[1]}={_tag[0]}'
         except:
             pass
 

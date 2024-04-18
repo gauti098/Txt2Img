@@ -274,14 +274,8 @@ class BatchAudioGenerateView(APIView):
                             isError = True
                             errorMessage.append({"isError": True,"delay": "Delay must be less than 20."})
                             continue
-                        
-                        try:
-                            aiAudioInst,ct = AiAudio.objects.get_or_create(avatarSound=_alreadyQueryAudioInst[_audioInstId],text=getParsedText(_text))
-                        except:
-                            allInsttt = AiAudio.objects.filter(avatarSound=_alreadyQueryAudioInst[_audioInstId],text=getParsedText(_text))
-                            allInsttt.delete()
-                            aiAudioInst,ct = AiAudio.objects.get_or_create(avatarSound=_alreadyQueryAudioInst[_audioInstId],text=getParsedText(_text))
 
+                        aiAudioInst,ct = AiAudio.objects.get_or_create(avatarSound=_alreadyQueryAudioInst[_audioInstId],text=getParsedText(_text))
                         if ct:
                             aiAudioInst.user = request.user
                             aiAudioInst.save()

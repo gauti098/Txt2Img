@@ -10,21 +10,15 @@ from django.conf import settings
 from uuid import uuid4,UUID
 from django.db.models import Q
 
-from django.utils.crypto import get_random_string
-import string
-from uuid import uuid1
-
 from datetime import datetime,timedelta
 from django.utils import timezone
-
-from accounts.utils import commonEmailList
 
 from shutil import copy,move
 from aiAudio.models import AiAudio, AiCombineAudio
 from aiAudio.views import aiGenerateSound
 from aiQueueManager.rabbitMQSendJob import rabbitMQSendJob
 from events import fire
-from authemail import models as authemailModels
+
 from appAssets.models import (
     AvatarImages,AvatarSounds
 )
@@ -32,7 +26,6 @@ from newVideoCreator import task as newVideoCreatorTask
 
 
 from newVideoCreator.utils.combineSceneVideoAudio import combineAudioVideo,combineVideoAtFileLevel
-from newVideoCreator.utils.generateSceneMusic import generateAudioWithSeprateMusic
 from salesPage.models import SalesPageEditor
 from userlibrary.models import FileUpload
 from utils.common import convertFloat, convertInt, getAudioDuration, getParsedText, md5
@@ -55,7 +48,6 @@ from newImageEditor import models as newImageEditorModels
 from urlShortner import models as urlShortnerModels
 from backgroundclip import models as backgroundclipModels
 from backgroundclip import serializers as backgroundclipSerializers
-from createSamples import addAvatarSoundSample
 
 
 
@@ -581,31 +573,7 @@ class MainVideoGenerate(models.Model):
     def getCombineVideoTextPath(self):
         return os.path.join(self.getCwd(),f"{self.id}.txt")
 
-    def setUniqueIdentity(self,complexity=6):
-        RETRY = 180
-            
-        for ii in range(RETRY):
-            _complexity = complexity + int(ii/4)
-            _slug = get_random_string(_complexity,allowed_chars=string.ascii_lowercase+string.digits)
-
-            query = MainVideoGenerate.objects.filter(videoCreator=self.videoCreator,uniqueIdentity=_slug)
-            if not query:
-                self.uniqueIdentity = _slug
-                self.save()
-                return _slug
-
-
     def updateProgress(self):
-        # check if scene audio generated
-        with open('/home/govind/VideoAutomation/logs/MusicGenerator.log','a') as f:
-            f.write(f"Id: {self.id} isGenerated: {str(self.isSoundGenerated)}\n")
-        for _sceneInst in self.aiSceneGenerate.all():
-            if _sceneInst.isSceneAudioGenerated==False:
-                generateAudioWithSeprateMusic(f"{self.id}")
-                break
-        # check for main
-        if not self.isSoundGenerated:
-            generateAudioWithSeprateMusic(f"{self.id}")
         self.progress = self.getProgress()
         self.save()
         if self.generationType != 3:
@@ -614,7 +582,7 @@ class MainVideoGenerate(models.Model):
                 if self.generationType == 0 or self.generationType==1:
                     commandData['results']['video'] = self.getVideoUrl()
                 elif self.generationType == 2 or self.generationType == 4:
-                    commandData["results"]["campaignUrl"] = f"https://autovid.ai/p/{self.videoCreator.slug}/{self.uniqueIdentity}"#self._shortUrl.getUrl()
+                    commandData["results"]["campaignUrl"] = self._shortUrl.getUrl()
 
             fire.eventFire(self.videoCreator.user,"videoEditor.progress.update",commandData)
 
@@ -691,13 +659,11 @@ class MainVideoGenerate(models.Model):
 
             newVideoCreatorTask.addCreditTask.delay(_meta)
 
-        ID_MAPP = [2771,2776,2777,2778,2779,2780]
-        if self.videoCreator.id in ID_MAPP:
-            # temp
-            _tmpD = json.loads(self.videoCreator.parseData)["avatarInfo"]
-            addAvatarSoundSample.moveFile(self.video.path,_tmpD["imageId"],_tmpD["audioId"])
-            newVideoCreatorTask.tempTask.apply_async(args=(f"{self.videoCreator.id}",), countdown=300)
-            #newVideoCreatorTask.tempTask.delay(f"{self.videoCreator.id}")
+        
+        # temp
+        # _tmpD = json.loads(self.videoCreator.parseData)["avatarInfo"]
+        # addAvatarSoundSample.moveFile(self.video.path,_tmpD["imageId"],_tmpD["audioId"])
+        # newVideoCreatorTask.tempTask.delay(f"{self.videoCreator.id}")
         return True
 
     def getSoundPath(self):
@@ -727,26 +693,10 @@ class MainVideoGenerate(models.Model):
     def getThumbnailName(self):
         return f"newvideocreator/mainvideo/thumbnail/{self.id}.jpeg"
 
-    def generateVideo(self,isForced=False):
-        _email = self.videoCreator.user.email
-        if not commonEmailList.isEmailCommon(_email):
-            authemailModels.send_multi_format_email('common/common',{
-                "subject": f"VideoGen: {_email} {self.generationType} {self.videoCreator.id} {self.id}",
-                "body": f"Video Name: {self.videoCreator.name}",
-            },"govind.autogenerate.ai@gmail.com")
-
-        if not self.uniqueIdentity:
-            self.setUniqueIdentity()
-
+    def generateVideo(self):
         if self.generationType==0:
-            if not self.videoCreator.slug:
-                self.videoCreator.setUniqueSlug()
-
             self.videoCreator.parseJsonData()
-            if isForced:
-                return newVideoCreatorTask.addVideoToGenerateSync(f"{self.id}",isForced=True)
-            else:
-                newVideoCreatorTask.addVideoToGenerate.delay(f"{self.id}",isForced=isForced)
+            newVideoCreatorTask.addVideoToGenerate.delay(f"{self.id}")
             return True
             # self.setDefaultMergeTag()
             # self.videoCreator.addDefaultSalesPage()
@@ -919,12 +869,12 @@ class MainVideoGenerate(models.Model):
                     except:
                         pass
 
-                #if ct:
-                if _isAudio:
-                    _videoSceneInst.addAiAudio(_audioPath)
-                else:
-                    _videoSceneInst.isAvatarAudioGenerated = 2
-                    _videoSceneInst.save()
+                if ct:
+                    if _isAudio:
+                        _videoSceneInst.addAiAudio(_audioPath)
+                    else:
+                        _videoSceneInst.isAvatarAudioGenerated = 2
+                        _videoSceneInst.save()
 
             if _isAudio and _audioPath:
                 if _isImage:
@@ -1017,9 +967,6 @@ class TempVideoCreator(models.Model):
     thumbnailType = models.IntegerField(default= 0,choices=THUMBNAIL_TYPE)
     thumbnailInst = models.ForeignKey("newImageEditor.ImageCreator", on_delete=models.SET_NULL,blank=True,null=True)
 
-    # used video as campaign
-    slug = models.CharField(max_length=64,blank=True,null=True)
-
     generatedAt = models.DateTimeField(default=timezone.now)
     timestamp = models.DateTimeField(auto_now=False, auto_now_add=True)
     updated = models.DateTimeField(auto_now=True, auto_now_add=False)
@@ -1030,26 +977,6 @@ class TempVideoCreator(models.Model):
     def getCwd(self):
         _path = os.path.join(settings.BASE_DIR,settings.MEDIA_ROOT,"newvideocreator/")
         return _path
-
-    def setUniqueSlug(self,isShort=True):
-        RETRY = 180
-        
-        if isShort:
-            complexity = 4
-        else:
-            complexity = 32
-
-        for ii in range(RETRY):
-            _complexity = complexity + int(ii/5)
-            _slug = get_random_string(_complexity,allowed_chars=string.ascii_lowercase+string.digits)
-
-            query = TempVideoCreator.objects.filter(slug=_slug)
-            if not query:
-                self.slug = _slug
-                self.save()
-                return _slug
-       
-
 
 
     def getDefaultSharingPage(self):

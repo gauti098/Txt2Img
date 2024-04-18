@@ -89,7 +89,7 @@ class EmailClient(models.Model):
                 emailAsClient = _d.get("email",emailAsClient)
             except:
                 pass
-            thubmbnailUrl = f'{settings.BASE_URL}/campaign/thumbnail/?isPlayBtn=1&campaign={campaignId}&uid={emailAsClient}'
+            thubmbnailUrl = f'{settings.BASE_URL}/campaign/thumbnail/?isPlayBtn=1&campaign={campaignId}&uid={emailAsClient}__batch__'
             if newLink:
                 campaignUrl = f"{PAGE_URL}/{campaignId}/{emailAsClient}"
             else:

@@ -10,7 +10,7 @@ from django.contrib.auth import get_user_model
 from django.dispatch import receiver
 #from userlibrary.models import FileUpload
 
-from utils.common import download_file, executeCommand, getImageInfo, getVideoDuration, getWebmCodecName,getAudioDuration
+from utils.common import download_file, executeCommand, getImageInfo, getVideoDuration, getWebmCodecName
 from uuid import uuid4
 import json
 from shutil import rmtree,copy
@@ -159,12 +159,6 @@ class APISaveVideo(models.Model):
         _filePath = os.path.join(_path,f"{self.id}.{ext}")
         return _filePath
 
-    def getAudioPath(self,ext ="mp3"):
-        _path = os.path.join(self.getCwd(),f"audio/")
-        os.makedirs(_path,exist_ok=True)
-        _filePath = os.path.join(_path,f"{self.id}.{ext}")
-        return _filePath
-
     def getPreviewVideoPath(self):
         _path = os.path.join(settings.BASE_DIR,settings.MEDIA_ROOT,f"apiVideo/preview/video/")
         os.makedirs(_path,exist_ok=True)
@@ -207,9 +201,6 @@ class APISaveVideo(models.Model):
             ext = "webm"
         return f"apiVideo/original/video/{self.id}.{ext}"
 
-    def getAudioName(self,ext = "mp3"):
-        return f"apiVideo/original/audio/{self.id}.{ext}"
-
     def getThumbnailName(self):
         ext = 'jpeg'
         if self.isTransparent:
@@ -251,21 +242,6 @@ class APISaveVideo(models.Model):
         else:
             return (False,None)
 
-    def extractAudio(self):
-        audioPath = self.getAudioPath()
-        _ffmpegCommand = ['ffmpeg','-y','-i', self.originalVideo.path,audioPath]
-        _res = executeCommand(_ffmpegCommand)
-        # validate audio by duration
-        if getAudioDuration(audioPath)>0:
-            return True
-        else:
-            try:
-                os.remove(audioPath)
-            except:
-                pass
-            return False
-
-
     def extractFrames(self,maxWidth=1920,maxHeight=1920,quality=3,fps=settings.VIDEO_DEFAULT_FPS):
         _isSuccess,_videoInfo = self.getOriginalVideoInfo()
         if self.originalVideo and self.isVideoProcessed==False and _isSuccess:
@@ -304,11 +280,6 @@ class APISaveVideo(models.Model):
                         _ffmpegCommand = ['ffmpeg','-y','-i', self.originalVideo.path,'-vf',f'fps={fps}','-qscale:v',f'{quality}','-start_number','0',self.getImageSeqencePath()]
 
                 _res = executeCommand(_ffmpegCommand)
-
-            # extract audio
-            self.isAudio = self.extractAudio()
-            if self.isAudio:
-                self.audio.name = self.getAudioName()
 
             self.isVideoProcessed = True
             _imgSP = self.getImageSeqencePath(onlyDir=True)

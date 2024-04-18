@@ -67,7 +67,6 @@ class AiAudio(models.Model):
             _soundname = f"{uuid4()}.mp3"
             audioPath = os.path.join(outputPath,_soundname)
             isSuccess,message = self.avatarSound.generateSound(self.text,audioPath)
-            print(isSuccess,message)
             if isSuccess:
                 self.sound.name = self.getModelSoundPath() + _soundname
                 self.isGenerated = True

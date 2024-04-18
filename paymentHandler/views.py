@@ -76,7 +76,7 @@ class StripSessionIdView(APIView):
         _errorMessage = {"isError": True}
 
         # yearly deal 
-        _paymentType = 1
+        _paymentType = 2
         if _paymentType == None:
             _errorMessage["paymentType"] = "This Field is required."
             isError = True

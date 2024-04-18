@@ -39,23 +39,14 @@ class LimitOffset(LimitOffsetPagination):
     max_limit = 50
 
 
-
-
 class VoiceLanguageView(APIView):
     permission_classes = (IsAuthenticated,)
     serializer_class = VoiceLanguageSerializer
-    QUERY_CACHE = None
-
-    def getVoiceLangQuery(self):
-        if self.QUERY_CACHE == None:
-            lang_ids = AvatarSounds.objects.all().exclude(provider = 'google').values_list('voice_language', flat=True)
-            self.QUERY_CACHE = VoiceLanguage.objects.filter(pk__in=lang_ids).order_by("name")
-        return self.QUERY_CACHE
 
     def get(self, request, format=None):
         
         query = request.GET.get("q",None)
-        allQuery = self.getVoiceLangQuery()#VoiceLanguage.objects.all().order_by("name")
+        allQuery = VoiceLanguage.objects.all().order_by("name")
         if query:
             allQuery = allQuery.filter(Q(name__icontains=query) | Q(code__icontains=query) | Q(country__name__icontains=query) | Q(country__code__icontains=query) | Q(tags__icontains=query))
         country = request.GET.get("country",None)
@@ -100,7 +91,7 @@ class GetAvatarVoicesView(APIView):
             return Response(content,status=status.HTTP_400_BAD_REQUEST)
 
 
-        soundQuery = AvatarSounds.objects.filter(voice_language=_languageInst).exclude(provider='google')
+        soundQuery = AvatarSounds.objects.filter(voice_language=_languageInst)
         _maleQuery = soundQuery.filter(gender=1)
         _femaleQuery = soundQuery.filter(gender=2)
         _maleQueryC = _maleQuery.count()

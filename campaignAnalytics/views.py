@@ -63,29 +63,6 @@ class CampaignThumbnailViews(APIView,LimitOffset):
         except:
             return (False,'','')
 
-    def get_mainVideo_obj(self,slug):
-        try:
-            _inst = newVideoCreatorModels.TempVideoCreator.objects.get(slug=slug)
-            return (2,_inst)
-        except:
-            return self.get_group_handler(slug)
-        
-
-    def get_mainVideoGenerate_obj(self,videoCreatorInst,uniqueIdentity):
-        try:
-            _inst = newVideoCreatorModels.MainVideoGenerate.objects.get(videoCreator=videoCreatorInst,uniqueIdentity__iexact=uniqueIdentity)
-            return (True,_inst)
-        except:
-            pass
-        return (False,None)
-
-
-    def get_group_handler(self,uid):
-        try:
-            return (True,newVideoCreatorModels.GroupHandler.objects.get(id=uid))
-        except:
-            return (False,"")
-
     def get_video_generate(self,uid):
         try:
             return (True,newVideoCreatorModels.MainVideoGenerate.objects.get(id=uid))
@@ -108,24 +85,11 @@ class CampaignThumbnailViews(APIView,LimitOffset):
         campaignId = data.get('campaign','')
         uid = data.get('uid','')
         isPlayBtn = data.get('isPlayBtn',False)
-
-
-        appType = 0
-        is_exist=False
-        inst=None
-        thumbnailPath = None
-        is_exist,_videoCreatorObj = self.get_mainVideo_obj(campaignId)
-        if is_exist == 2 and uid:
-            appType = 1
-            is_exist,inst = self.get_mainVideoGenerate_obj(_videoCreatorObj,uid)
-            if not is_exist:
-                is_exist = True
-                inst = _videoCreatorObj
-        elif is_exist:
-            appType = 1
-            inst = _videoCreatorObj
-
-        elif uid and campaignId:
+        if uid and campaignId:
+            appType = 0
+            is_exist=False
+            inst=None
+            thumbnailPath = None
             if uid == 'video_creator':
                 is_exist,inst = self.get_video_generate(campaignId)
                 appType = 1
@@ -136,31 +100,29 @@ class CampaignThumbnailViews(APIView,LimitOffset):
                 appType = 1
             else:
                 is_exist,inst,camp = self.get_object(campaignId,uid)
-
-
-        if is_exist:
-            if appType==1:
-                thumbnailPath = inst.thumbnail.path
-                isFound = False
-                if isPlayBtn:
-                    newThumbnailP = thumbnailPath.replace('.jpeg','_play.jpeg')
-                    if os.path.isfile(newThumbnailP):
-                        thumbnailPath = newThumbnailP
-                        isFound = True
-                if not isFound:
-                    isFound = os.path.isfile(thumbnailPath)
-                if not isFound:
-                    Response("0",status=status.HTTP_400_BAD_REQUEST)
-            else:
-                inst_ = CampaignGroupAnalytics(campaign=inst,command=1)
-                thumbnailPath = inst.genVideo.thumbnailImage.path
-                if inst.thumbnail:
-                    isFound = os.path.isfile(inst.thumbnail.path)
-                    if isFound and inst.thumbnail.name != inst._meta.get_field('thumbnail').get_default():
-                        thumbnailPath = inst.thumbnail.path
-                inst_.save()
-            img = open(thumbnailPath,'rb')
-            return FileResponse(img)
+            if is_exist:
+                if appType==1:
+                    thumbnailPath = inst.thumbnail.path
+                    isFound = False
+                    if isPlayBtn:
+                        newThumbnailP = thumbnailPath.replace('.jpeg','_play.jpeg')
+                        if os.path.isfile(newThumbnailP):
+                            thumbnailPath = newThumbnailP
+                            isFound = True
+                    if not isFound:
+                        isFound = os.path.isfile(thumbnailPath)
+                    if not isFound:
+                        Response("0",status=status.HTTP_400_BAD_REQUEST)
+                else:
+                    inst_ = CampaignGroupAnalytics(campaign=inst,command=1)
+                    thumbnailPath = inst.genVideo.thumbnailImage.path
+                    if inst.thumbnail:
+                        isFound = os.path.isfile(inst.thumbnail.path)
+                        if isFound and inst.thumbnail.name != inst._meta.get_field('thumbnail').get_default():
+                            thumbnailPath = inst.thumbnail.path
+                    inst_.save()
+                img = open(thumbnailPath,'rb')
+                return FileResponse(img)
         return Response("0",status=status.HTTP_400_BAD_REQUEST)
 
 def decryptData(endata,secret):
