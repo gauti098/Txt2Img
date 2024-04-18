@@ -1,0 +1,2 @@
+Change your Organization by clicking on this link:
+    http://127.0.0.1:8000/api/accounts/user/organization/verify/?code={{ code }}

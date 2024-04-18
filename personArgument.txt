@@ -1,0 +1,39 @@
+1) prsPath (generated Video Image Sequence)
+2) bgType:
+        a) video:
+            bgPath (video path)
+        b) image:
+            bgPath (image path)
+        c) color:
+            bgColor (rgb color value)
+
+3) prsCategory:
+        a) full:
+            prsRatio (person ratio With respect to background video)
+            prsPosition:
+                L (left)
+                R (right)
+                C (center)
+            prsPadding (space between background boundary)
+
+        b) circle:
+            prsRatio (person ratio)
+            prsPosition:
+                L (left)
+                R (right)
+                C (center)
+            prsPadding (space between background boundary)
+
+            prsBgType:
+                color:
+                    prsBgColor
+                image:
+                    prsBgImage
+
+        c) square:
+            prsRatio (person ratio)
+            prsPosition:
+                L (left)
+                R (right)
+                C (center)
+            prsPadding (space between background boundary)

@@ -1,0 +1,4592 @@
+[
+    {
+        "scenarios": [],
+        "displayName": "Asad",
+        "languages": "ur-pk",
+        "image": "https://eu.ui-avatars.com/api/?name=Asad",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ur-PK-AsadNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ur-PK-AsadNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Urdu (Pakistan)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Aled",
+        "languages": "cy-gb",
+        "image": "https://eu.ui-avatars.com/api/?name=Aled",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/cy-GB-AledNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "cy-GB-AledNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Welsh (United Kingdom)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Fernanda",
+        "languages": "pt-pt",
+        "image": "https://eu.ui-avatars.com/api/?name=Fernanda",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/pt-PT-FernandaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "pt-PT-FernandaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Portuguese (Portugal)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Brandon",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Brandon",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-BrandonNeural.wav",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "en-US-BrandonNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Soft",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sardor",
+        "languages": "uz-uz",
+        "image": "https://eu.ui-avatars.com/api/?name=Sardor",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/uz-UZ-SardorNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "uz-UZ-SardorNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Uzbek (Uzbekistan)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Aarohi (mr)",
+        "languages": "mr-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Aarohi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/mr-IN-AarohiNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "mr-IN-AarohiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Marathi (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Amina",
+        "languages": "ar-dz",
+        "image": "https://eu.ui-avatars.com/api/?name=Amina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-DZ-AminaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-DZ-AminaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Algeria)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Lorena",
+        "languages": "es-sv",
+        "image": "https://eu.ui-avatars.com/api/?name=Lorena",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-SV-LorenaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-SV-LorenaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (El Salvador)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Hillevi",
+        "languages": "sv-se",
+        "image": "https://eu.ui-avatars.com/api/?name=Hillevi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sv-SE-HilleviNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "sv-SE-HilleviNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Friendly",
+        "ln": "Swedish (Sweden)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Niwat",
+        "languages": "th-th",
+        "image": "https://eu.ui-avatars.com/api/?name=Niwat",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/th-TH-NiwatNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "th-TH-NiwatNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Thai (Thailand)"
+    },
+    {
+        "scenarios": [
+            "Calm",
+            "Fearful",
+            "Cheerful",
+            "Disgruntled",
+            "Serious",
+            "Angry",
+            "Gentle",
+            "Depressed"
+        ],
+        "displayName": "Xiaomo",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Xiaomo",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-XiaomoNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-CN-XiaomoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Gentle",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Hamdan",
+        "languages": "ar-ae",
+        "image": "https://eu.ui-avatars.com/api/?name=Hamdan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-AE-HamdanNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-AE-HamdanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (United Arab Emirates)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Nilar",
+        "languages": "my-mm",
+        "image": "https://eu.ui-avatars.com/api/?name=Nilar",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/my-MM-NilarNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "my-MM-NilarNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Burmese (Myanmar)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Jorge",
+        "languages": "es-mx",
+        "image": "https://eu.ui-avatars.com/api/?name=Jorge",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-MX-JorgeNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "es-MX-JorgeNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Mexico)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Camila",
+        "languages": "es-pe",
+        "image": "https://eu.ui-avatars.com/api/?name=Camila",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-PE-CamilaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-PE-CamilaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Peru)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Madina",
+        "languages": "uz-uz",
+        "image": "https://eu.ui-avatars.com/api/?name=Madina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/uz-UZ-MadinaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "uz-UZ-MadinaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Uzbek (Uzbekistan)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ariane",
+        "languages": "fr-ch",
+        "image": "https://eu.ui-avatars.com/api/?name=Ariane",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fr-CH-ArianeNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "fr-CH-ArianeNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "French (Switzerland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Bassel",
+        "languages": "ar-iq",
+        "image": "https://eu.ui-avatars.com/api/?name=Bassel",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-IQ-BasselNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-IQ-BasselNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Iraq)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Farid",
+        "languages": "fa-ir",
+        "image": "https://eu.ui-avatars.com/api/?name=Farid",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fa-IR-FaridNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "fa-IR-FaridNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Persian (Iran)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Mouna",
+        "languages": "ar-ma",
+        "image": "https://eu.ui-avatars.com/api/?name=Mouna",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-MA-MounaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-MA-MounaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Morocco)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Salman (ur)",
+        "languages": "ur-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Salman",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ur-IN-SalmanNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ur-IN-SalmanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Urdu (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Catalina",
+        "languages": "es-cl",
+        "image": "https://eu.ui-avatars.com/api/?name=Catalina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-CL-CatalinaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-CL-CatalinaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Chile)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Saranya",
+        "languages": "ta-lk",
+        "image": "https://eu.ui-avatars.com/api/?name=Saranya",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ta-LK-SaranyaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ta-LK-SaranyaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Tamil (Sri Lanka)"
+    },
+    {
+        "scenarios": [
+            "Newscast"
+        ],
+        "displayName": "Guy",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Guy",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-GuyNeural.wav",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "en-US-GuyNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Energetic",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Moaz",
+        "languages": "ar-qa",
+        "image": "https://eu.ui-avatars.com/api/?name=Moaz",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-QA-MoazNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-QA-MoazNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Qatar)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ryan",
+        "languages": "en-gb",
+        "image": "https://eu.ui-avatars.com/api/?name=Ryan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-GB-RyanNeural.wav",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "en-GB-RyanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Determined",
+        "ln": "English (United Kingdom)"
+    },
+    {
+        "scenarios": [
+            "Calm",
+            "Fearful",
+            "Cheerful",
+            "Disgruntled",
+            "Serious",
+            "Angry",
+            "Sad"
+        ],
+        "displayName": "Yunye",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Yunye",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-YunyeNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "zh-CN-YunyeNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Distant",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Nils",
+        "languages": "lv-lv",
+        "image": "https://eu.ui-avatars.com/api/?name=Nils",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/lv-LV-NilsNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "lv-LV-NilsNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Latvian (Latvia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Carlos",
+        "languages": "es-hn",
+        "image": "https://eu.ui-avatars.com/api/?name=Carlos",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-HN-CarlosNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-HN-CarlosNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Honduras)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Vlasta",
+        "languages": "cs-cz",
+        "image": "https://eu.ui-avatars.com/api/?name=Vlasta",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/cs-CZ-VlastaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "cs-CZ-VlastaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Czech (Czech)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Javier",
+        "languages": "es-gq",
+        "image": "https://eu.ui-avatars.com/api/?name=Javier",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-GQ-JavierNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-GQ-JavierNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Equatorial Guinea)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Tamas",
+        "languages": "hu-hu",
+        "image": "https://eu.ui-avatars.com/api/?name=Tamas",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/hu-HU-TamasNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "hu-HU-TamasNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Hungarian (Hungary)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Karina",
+        "languages": "es-pr",
+        "image": "https://eu.ui-avatars.com/api/?name=Karina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-PR-KarinaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-PR-KarinaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Puerto Rico)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Katja",
+        "languages": "de-de",
+        "image": "https://eu.ui-avatars.com/api/?name=Katja",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/de-DE-KatjaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "de-DE-KatjaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Gentle",
+        "ln": "German (Germany)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ardi",
+        "languages": "id-id",
+        "image": "https://eu.ui-avatars.com/api/?name=Ardi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/id-ID-ArdiNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "id-ID-ArdiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Indonesian (Indonesia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Nestoras",
+        "languages": "el-gr",
+        "image": "https://eu.ui-avatars.com/api/?name=Nestoras",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/el-GR-NestorasNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "el-GR-NestorasNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Greek (Greece)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Laila",
+        "languages": "ar-bh",
+        "image": "https://eu.ui-avatars.com/api/?name=Laila",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-BH-LailaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-BH-LailaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Bahrain)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Pradeep",
+        "languages": "bn-bd",
+        "image": "https://eu.ui-avatars.com/api/?name=Pradeep",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/bn-BD-PradeepNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "bn-BD-PradeepNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Bangla (Bangladesh)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Prabhat (en)",
+        "languages": "en-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Prabhat",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-IN-PrabhatNeural.wav",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "en-IN-PrabhatNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Vivacious",
+        "ln": "English (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Siti",
+        "languages": "jv-id",
+        "image": "https://eu.ui-avatars.com/api/?name=Siti",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/jv-ID-SitiNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "jv-ID-SitiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Javanese (Indonesia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Raquel",
+        "languages": "pt-pt",
+        "image": "https://eu.ui-avatars.com/api/?name=Raquel",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/pt-PT-RaquelNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "pt-PT-RaquelNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Friendly",
+        "ln": "Portuguese (Portugal)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Kalina",
+        "languages": "bg-bg",
+        "image": "https://eu.ui-avatars.com/api/?name=Kalina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/bg-BG-KalinaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "bg-BG-KalinaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Bulgarian (Bulgaria)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ona",
+        "languages": "lt-lt",
+        "image": "https://eu.ui-avatars.com/api/?name=Ona",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/lt-LT-OnaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "lt-LT-OnaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Lithuanian (Lithuania)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Dimas",
+        "languages": "jv-id",
+        "image": "https://eu.ui-avatars.com/api/?name=Dimas",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/jv-ID-DimasNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "jv-ID-DimasNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Javanese (Indonesia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Noemi",
+        "languages": "hu-hu",
+        "image": "https://eu.ui-avatars.com/api/?name=Noemi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/hu-HU-NoemiNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "hu-HU-NoemiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Hungarian (Hungary)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Grace",
+        "languages": "mt-mt",
+        "image": "https://eu.ui-avatars.com/api/?name=Grace",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/mt-MT-GraceNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "mt-MT-GraceNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Maltese (Malta)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sofie",
+        "languages": "sv-se",
+        "image": "https://eu.ui-avatars.com/api/?name=Sofie",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sv-SE-SofieNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "sv-SE-SofieNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Swedish (Sweden)"
+    },
+    {
+        "scenarios": [
+            "Cheerful",
+            "Angry",
+            "Sad"
+        ],
+        "displayName": "Sara",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Sara",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-SaraNeural.wav",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "en-US-SaraNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Soft",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Jan",
+        "languages": "de-ch",
+        "image": "https://eu.ui-avatars.com/api/?name=Jan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/de-CH-JanNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "de-CH-JanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "German (Switzerland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Xiaoyan",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Xiaoyan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-XiaoyanNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "zh-CN-XiaoyanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Calm",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Jeppe",
+        "languages": "da-dk",
+        "image": "https://eu.ui-avatars.com/api/?name=Jeppe",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/da-DK-JeppeNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "da-DK-JeppeNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Danish (Denmark)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ameha",
+        "languages": "am-et",
+        "image": "https://eu.ui-avatars.com/api/?name=Ameha",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/am-ET-AmehaNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "am-ET-AmehaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Amharic (Ethiopia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Noora",
+        "languages": "fi-fi",
+        "image": "https://eu.ui-avatars.com/api/?name=Noora",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fi-FI-NooraNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "fi-FI-NooraNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Energetic",
+        "ln": "Finnish (Finland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Belkys",
+        "languages": "es-cu",
+        "image": "https://eu.ui-avatars.com/api/?name=Belkys",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-CU-BelkysNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-CU-BelkysNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Cuba)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ali",
+        "languages": "ar-bh",
+        "image": "https://eu.ui-avatars.com/api/?name=Ali",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-BH-AliNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-BH-AliNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Bahrain)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Emel",
+        "languages": "tr-tr",
+        "image": "https://eu.ui-avatars.com/api/?name=Emel",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/tr-TR-EmelNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "tr-TR-EmelNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Turkish (Turkey)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Themba",
+        "languages": "zu-za",
+        "image": "https://eu.ui-avatars.com/api/?name=Themba",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zu-ZA-ThembaNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "zu-ZA-ThembaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Zulu (South Africa)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Athina",
+        "languages": "el-gr",
+        "image": "https://eu.ui-avatars.com/api/?name=Athina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/el-GR-AthinaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "el-GR-AthinaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Greek (Greece)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Rodrigo",
+        "languages": "es-sv",
+        "image": "https://eu.ui-avatars.com/api/?name=Rodrigo",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-SV-RodrigoNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-SV-RodrigoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (El Salvador)"
+    },
+    {
+        "scenarios": [
+            "Customerservice",
+            "Narration"
+        ],
+        "displayName": "Yunyang",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Yunyang",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-YunyangNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "zh-CN-YunyangNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Friendly",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Salome",
+        "languages": "es-co",
+        "image": "https://eu.ui-avatars.com/api/?name=Salome",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-CO-SalomeNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "es-CO-SalomeNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Colombia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Marta",
+        "languages": "es-gt",
+        "image": "https://eu.ui-avatars.com/api/?name=Marta",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-GT-MartaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-GT-MartaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Guatemala)"
+    },
+    {
+        "scenarios": [
+            "Assistant",
+            "Chat",
+            "Customerservice",
+            "Newscast"
+        ],
+        "displayName": "Jenny",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Jenny",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-JennyNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-US-JennyNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Joyful",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ubax",
+        "languages": "so-so",
+        "image": "https://eu.ui-avatars.com/api/?name=Ubax",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/so-SO-UbaxNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "so-SO-UbaxNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Somali (Somalia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Tuti",
+        "languages": "su-id",
+        "image": "https://eu.ui-avatars.com/api/?name=Tuti",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/su-ID-TutiNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "su-ID-TutiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Sundanese (Indonesia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "HsiaoChen",
+        "languages": "zh-tw",
+        "image": "https://eu.ui-avatars.com/api/?name=HsiaoChen",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-TW-HsiaoChenNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-TW-HsiaoChenNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Chinese (Taiwanese Mandarin)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Everita",
+        "languages": "lv-lv",
+        "image": "https://eu.ui-avatars.com/api/?name=Everita",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/lv-LV-EveritaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "lv-LV-EveritaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Latvian (Latvia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ashley",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Ashley",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-AshleyNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-US-AshleyNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Calm",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Gerard",
+        "languages": "fr-be",
+        "image": "https://eu.ui-avatars.com/api/?name=Gerard",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fr-BE-GerardNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "fr-BE-GerardNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "French (Belgium)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ostap",
+        "languages": "uk-ua",
+        "image": "https://eu.ui-avatars.com/api/?name=Ostap",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/uk-UA-OstapNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "uk-UA-OstapNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Ukrainian (Ukraine)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Piseth",
+        "languages": "km-kh",
+        "image": "https://eu.ui-avatars.com/api/?name=Piseth",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/km-KH-PisethNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "km-KH-PisethNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Khmer (Cambodia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Srecko",
+        "languages": "hr-hr",
+        "image": "https://eu.ui-avatars.com/api/?name=Srecko",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/hr-HR-SreckoNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "hr-HR-SreckoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Croatian (Croatia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "WanLung",
+        "languages": "zh-hk",
+        "image": "https://eu.ui-avatars.com/api/?name=WanLung",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-HK-WanLungNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "zh-HK-WanLungNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Chinese (Cantonese, Traditional)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Juan",
+        "languages": "es-cr",
+        "image": "https://eu.ui-avatars.com/api/?name=Juan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-CR-JuanNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-CR-JuanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Costa Rica)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Nanami",
+        "languages": "ja-jp",
+        "image": "https://eu.ui-avatars.com/api/?name=Nanami",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ja-JP-NanamiNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ja-JP-NanamiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Japanese (Japan)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Lorenzo",
+        "languages": "es-cl",
+        "image": "https://eu.ui-avatars.com/api/?name=Lorenzo",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-CL-LorenzoNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-CL-LorenzoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Chile)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Alina",
+        "languages": "ro-ro",
+        "image": "https://eu.ui-avatars.com/api/?name=Alina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ro-RO-AlinaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ro-RO-AlinaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Romanian (Romania)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Maria",
+        "languages": "es-cr",
+        "image": "https://eu.ui-avatars.com/api/?name=Maria",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-CR-MariaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-CR-MariaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Costa Rica)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Tomas",
+        "languages": "es-ar",
+        "image": "https://eu.ui-avatars.com/api/?name=Tomas",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-AR-TomasNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "es-AR-TomasNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Argentina)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Andrea",
+        "languages": "es-ec",
+        "image": "https://eu.ui-avatars.com/api/?name=Andrea",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-EC-AndreaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-EC-AndreaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Ecuador)"
+    },
+    {
+        "scenarios": [
+            "Calm",
+            "Fearful",
+            "Angry",
+            "Sad"
+        ],
+        "displayName": "Xiaorui",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Xiaorui",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-XiaoruiNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-CN-XiaoruiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Delightful",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Colm",
+        "languages": "ga-ie",
+        "image": "https://eu.ui-avatars.com/api/?name=Colm",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ga-IE-ColmNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ga-IE-ColmNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Irish (Ireland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Gul (ur)",
+        "languages": "ur-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Gul",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ur-IN-GulNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ur-IN-GulNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Urdu (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Osman",
+        "languages": "ms-my",
+        "image": "https://eu.ui-avatars.com/api/?name=Osman",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ms-MY-OsmanNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ms-MY-OsmanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Malay (Malaysia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Premwadee",
+        "languages": "th-th",
+        "image": "https://eu.ui-avatars.com/api/?name=Premwadee",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/th-TH-PremwadeeNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "th-TH-PremwadeeNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Thai (Thailand)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "InJoon",
+        "languages": "ko-kr",
+        "image": "https://eu.ui-avatars.com/api/?name=InJoon",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ko-KR-InJoonNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ko-KR-InJoonNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Korean (Korea)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Alex",
+        "languages": "es-pe",
+        "image": "https://eu.ui-avatars.com/api/?name=Alex",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-PE-AlexNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-PE-AlexNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Peru)"
+    },
+    {
+        "scenarios": [
+            "Assistant",
+            "Chat",
+            "Customerservice",
+            "Newscast",
+            "Affectionate",
+            "Angry",
+            "Calm",
+            "Cheerful",
+            "Disgruntled",
+            "Fearful",
+            "Gentle",
+            "Lyrical",
+            "Sad",
+            "Serious"
+        ],
+        "displayName": "Xiaoxiao",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Xiaoxiao",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-XiaoxiaoNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-CN-XiaoxiaoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Peaceful",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Dilara",
+        "languages": "fa-ir",
+        "image": "https://eu.ui-avatars.com/api/?name=Dilara",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fa-IR-DilaraNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "fa-IR-DilaraNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Persian (Iran)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Thiha",
+        "languages": "my-mm",
+        "image": "https://eu.ui-avatars.com/api/?name=Thiha",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/my-MM-ThihaNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "my-MM-ThihaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Burmese (Myanmar)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Rana",
+        "languages": "ar-iq",
+        "image": "https://eu.ui-avatars.com/api/?name=Rana",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-IQ-RanaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-IQ-RanaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Iraq)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Venba",
+        "languages": "ta-sg",
+        "image": "https://eu.ui-avatars.com/api/?name=Venba",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ta-SG-VenbaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ta-SG-VenbaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Tamil (Singapore)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Colette",
+        "languages": "nl-nl",
+        "image": "https://eu.ui-avatars.com/api/?name=Colette",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/nl-NL-ColetteNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "nl-NL-ColetteNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Dutch (Netherlands)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Anu",
+        "languages": "et-ee",
+        "image": "https://eu.ui-avatars.com/api/?name=Anu",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/et-EE-AnuNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "et-EE-AnuNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Estonian (Estonia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Dmitry",
+        "languages": "ru-ru",
+        "image": "https://eu.ui-avatars.com/api/?name=Dmitry",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ru-RU-DmitryNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ru-RU-DmitryNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Russian (Russia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Emilio",
+        "languages": "es-do",
+        "image": "https://eu.ui-avatars.com/api/?name=Emilio",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-DO-EmilioNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-DO-EmilioNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Dominican Republic)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Christel",
+        "languages": "da-dk",
+        "image": "https://eu.ui-avatars.com/api/?name=Christel",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/da-DK-ChristelNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "da-DK-ChristelNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Danish (Denmark)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Fatima",
+        "languages": "ar-ae",
+        "image": "https://eu.ui-avatars.com/api/?name=Fatima",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-AE-FatimaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-AE-FatimaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (United Arab Emirates)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Yasmin",
+        "languages": "ms-my",
+        "image": "https://eu.ui-avatars.com/api/?name=Yasmin",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ms-MY-YasminNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ms-MY-YasminNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Malay (Malaysia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sreymom",
+        "languages": "km-kh",
+        "image": "https://eu.ui-avatars.com/api/?name=Sreymom",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/km-KH-SreymomNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "km-KH-SreymomNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Khmer (Cambodia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sun-Hi",
+        "languages": "ko-kr",
+        "image": "https://eu.ui-avatars.com/api/?name=Sun-Hi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ko-KR-SunHiNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ko-KR-SunHiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Korean (Korea)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Madhur (hi)",
+        "languages": "hi-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Madhur",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/hi-IN-MadhurNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "hi-IN-MadhurNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Hindi (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ramona",
+        "languages": "es-do",
+        "image": "https://eu.ui-avatars.com/api/?name=Ramona",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-DO-RamonaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-DO-RamonaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Dominican Republic)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Dalia",
+        "languages": "es-mx",
+        "image": "https://eu.ui-avatars.com/api/?name=Dalia",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-MX-DaliaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "es-MX-DaliaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Mexico)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Denise",
+        "languages": "fr-fr",
+        "image": "https://eu.ui-avatars.com/api/?name=Denise",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fr-FR-DeniseNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "fr-FR-DeniseNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "French (France)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Marcelo",
+        "languages": "es-bo",
+        "image": "https://eu.ui-avatars.com/api/?name=Marcelo",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-BO-MarceloNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-BO-MarceloNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Bolivia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Manuel",
+        "languages": "es-cu",
+        "image": "https://eu.ui-avatars.com/api/?name=Manuel",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-CU-ManuelNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-CU-ManuelNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Cuba)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Duarte",
+        "languages": "pt-pt",
+        "image": "https://eu.ui-avatars.com/api/?name=Duarte",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/pt-PT-DuarteNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "pt-PT-DuarteNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Portuguese (Portugal)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ismael",
+        "languages": "ar-dz",
+        "image": "https://eu.ui-avatars.com/api/?name=Ismael",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-DZ-IsmaelNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-DZ-IsmaelNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Algeria)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "YunJhe",
+        "languages": "zh-tw",
+        "image": "https://eu.ui-avatars.com/api/?name=YunJhe",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-TW-YunJheNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "zh-TW-YunJheNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Chinese (Taiwanese Mandarin)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Leni",
+        "languages": "de-ch",
+        "image": "https://eu.ui-avatars.com/api/?name=Leni",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/de-CH-LeniNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "de-CH-LeniNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "German (Switzerland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Alonso",
+        "languages": "es-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Alonso",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-US-AlonsoNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "es-US-AlonsoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Leah",
+        "languages": "en-za",
+        "image": "https://eu.ui-avatars.com/api/?name=Leah",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-ZA-LeahNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-ZA-LeahNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "English (South Africa)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Willem",
+        "languages": "af-za",
+        "image": "https://eu.ui-avatars.com/api/?name=Willem",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/af-ZA-WillemNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "af-ZA-WillemNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Afrikaans (South Africa)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Dhwani (gu)",
+        "languages": "gu-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Dhwani",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/gu-IN-DhwaniNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "gu-IN-DhwaniNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Gujarati (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ahmet",
+        "languages": "tr-tr",
+        "image": "https://eu.ui-avatars.com/api/?name=Ahmet",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/tr-TR-AhmetNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "tr-TR-AhmetNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Turkish (Turkey)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Viktoria",
+        "languages": "sk-sk",
+        "image": "https://eu.ui-avatars.com/api/?name=Viktoria",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sk-SK-ViktoriaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "sk-SK-ViktoriaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Slovak (Slovakia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Reem",
+        "languages": "ar-tn",
+        "image": "https://eu.ui-avatars.com/api/?name=Reem",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-TN-ReemNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-TN-ReemNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Tunisia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Michelle",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Michelle",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-MichelleNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-US-MichelleNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Warm",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Kumar",
+        "languages": "ta-lk",
+        "image": "https://eu.ui-avatars.com/api/?name=Kumar",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ta-LK-KumarNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ta-LK-KumarNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Tamil (Sri Lanka)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Ingrid",
+        "languages": "de-at",
+        "image": "https://eu.ui-avatars.com/api/?name=Ingrid",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/de-AT-IngridNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "de-AT-IngridNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "German (Austria)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Margarita",
+        "languages": "es-pa",
+        "image": "https://eu.ui-avatars.com/api/?name=Margarita",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-PA-MargaritaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-PA-MargaritaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Panama)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Maryam",
+        "languages": "ar-ye",
+        "image": "https://eu.ui-avatars.com/api/?name=Maryam",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-YE-MaryamNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-YE-MaryamNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Yemen)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Federico",
+        "languages": "es-ni",
+        "image": "https://eu.ui-avatars.com/api/?name=Federico",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-NI-FedericoNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-NI-FedericoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Nicaragua)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Adri",
+        "languages": "af-za",
+        "image": "https://eu.ui-avatars.com/api/?name=Adri",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/af-ZA-AdriNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "af-ZA-AdriNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Afrikaans (South Africa)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Jamal",
+        "languages": "ar-ma",
+        "image": "https://eu.ui-avatars.com/api/?name=Jamal",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-MA-JamalNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-MA-JamalNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Morocco)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Nia",
+        "languages": "cy-gb",
+        "image": "https://eu.ui-avatars.com/api/?name=Nia",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/cy-GB-NiaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "cy-GB-NiaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Welsh (United Kingdom)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Finn",
+        "languages": "nb-no",
+        "image": "https://eu.ui-avatars.com/api/?name=Finn",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/nb-NO-FinnNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "nb-NO-FinnNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Norwegian (Bokm\u00e5l, Norway)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Shakir",
+        "languages": "ar-eg",
+        "image": "https://eu.ui-avatars.com/api/?name=Shakir",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-EG-ShakirNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ar-EG-ShakirNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Egypt)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Keita",
+        "languages": "ja-jp",
+        "image": "https://eu.ui-avatars.com/api/?name=Keita",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ja-JP-KeitaNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ja-JP-KeitaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Japanese (Japan)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Mario",
+        "languages": "es-py",
+        "image": "https://eu.ui-avatars.com/api/?name=Mario",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-PY-MarioNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-PY-MarioNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Paraguay)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Emil",
+        "languages": "ro-ro",
+        "image": "https://eu.ui-avatars.com/api/?name=Emil",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ro-RO-EmilNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ro-RO-EmilNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Romanian (Romania)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Zuri",
+        "languages": "sw-ke",
+        "image": "https://eu.ui-avatars.com/api/?name=Zuri",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sw-KE-ZuriNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "sw-KE-ZuriNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Swahili (Kenya)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Hila",
+        "languages": "he-il",
+        "image": "https://eu.ui-avatars.com/api/?name=Hila",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/he-IL-HilaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "he-IL-HilaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Hebrew (Israel)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Natasha",
+        "languages": "en-au",
+        "image": "https://eu.ui-avatars.com/api/?name=Natasha",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-AU-NatashaNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-AU-NatashaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Delightful",
+        "ln": "English (Australia)"
+    },
+    {
+        "scenarios": [
+            "Calm",
+            "Fearful",
+            "Cheerful",
+            "Disgruntled",
+            "Serious",
+            "Angry",
+            "Sad",
+            "Gentle",
+            "Affectionate",
+            "Embarrassed"
+        ],
+        "displayName": "Xiaohan",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Xiaohan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-XiaohanNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-CN-XiaohanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Friendly",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Gabrijela",
+        "languages": "hr-hr",
+        "image": "https://eu.ui-avatars.com/api/?name=Gabrijela",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/hr-HR-GabrijelaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "hr-HR-GabrijelaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Croatian (Croatia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Maarten",
+        "languages": "nl-nl",
+        "image": "https://eu.ui-avatars.com/api/?name=Maarten",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/nl-NL-MaartenNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "nl-NL-MaartenNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Dutch (Netherlands)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Amber",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Amber",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-AmberNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-US-AmberNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Friendly",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Svetlana",
+        "languages": "ru-ru",
+        "image": "https://eu.ui-avatars.com/api/?name=Svetlana",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ru-RU-SvetlanaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ru-RU-SvetlanaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Warm",
+        "ln": "Russian (Russia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Anbu",
+        "languages": "ta-sg",
+        "image": "https://eu.ui-avatars.com/api/?name=Anbu",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ta-SG-AnbuNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ta-SG-AnbuNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Tamil (Singapore)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "HiuMaan",
+        "languages": "zh-hk",
+        "image": "https://eu.ui-avatars.com/api/?name=HiuMaan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-HK-HiuMaanNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-HK-HiuMaanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Chinese (Cantonese, Traditional)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "William",
+        "languages": "en-au",
+        "image": "https://eu.ui-avatars.com/api/?name=William",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-AU-WilliamNeural.wav",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "en-AU-WilliamNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Confident",
+        "ln": "English (Australia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Fenna",
+        "languages": "nl-nl",
+        "image": "https://eu.ui-avatars.com/api/?name=Fenna",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/nl-NL-FennaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "nl-NL-FennaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Distant",
+        "ln": "Dutch (Netherlands)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Roi",
+        "languages": "gl-es",
+        "image": "https://eu.ui-avatars.com/api/?name=Roi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/gl-ES-RoiNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "gl-ES-RoiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Galician"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Leonas",
+        "languages": "lt-lt",
+        "image": "https://eu.ui-avatars.com/api/?name=Leonas",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/lt-LT-LeonasNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "lt-LT-LeonasNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Lithuanian (Lithuania)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Orla",
+        "languages": "ga-ie",
+        "image": "https://eu.ui-avatars.com/api/?name=Orla",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ga-IE-OrlaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ga-IE-OrlaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Irish (Ireland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "HiuGaai",
+        "languages": "zh-hk",
+        "image": "https://eu.ui-avatars.com/api/?name=HiuGaai",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-HK-HiuGaaiNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-HK-HiuGaaiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Informative",
+        "ln": "Chinese (Cantonese, Traditional)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Karla",
+        "languages": "es-hn",
+        "image": "https://eu.ui-avatars.com/api/?name=Karla",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-HN-KarlaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-HN-KarlaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Honduras)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Polina",
+        "languages": "uk-ua",
+        "image": "https://eu.ui-avatars.com/api/?name=Polina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/uk-UA-PolinaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "uk-UA-PolinaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Ukrainian (Ukraine)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Jajang",
+        "languages": "su-id",
+        "image": "https://eu.ui-avatars.com/api/?name=Jajang",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/su-ID-JajangNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "su-ID-JajangNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Sundanese (Indonesia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Zariyah",
+        "languages": "ar-sa",
+        "image": "https://eu.ui-avatars.com/api/?name=Zariyah",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-SA-ZariyahNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ar-SA-ZariyahNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Informative",
+        "ln": "Arabic (Saudi Arabia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sonia",
+        "languages": "en-gb",
+        "image": "https://eu.ui-avatars.com/api/?name=Sonia",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-GB-SoniaNeural.wav",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "en-GB-SoniaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Delightful",
+        "ln": "English (United Kingdom)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Rok",
+        "languages": "sl-si",
+        "image": "https://eu.ui-avatars.com/api/?name=Rok",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sl-SI-RokNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "sl-SI-RokNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Slovenian (Slovenia)"
+    },
+    {
+        "scenarios": [
+            "Assistant",
+            "Calm",
+            "Fearful",
+            "Cheerful",
+            "Disgruntled",
+            "Serious",
+            "Angry",
+            "Sad",
+            "Depressed",
+            "Embarrassed"
+        ],
+        "displayName": "Yunxi",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Yunxi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-YunxiNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "zh-CN-YunxiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Calm",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Uzma",
+        "languages": "ur-pk",
+        "image": "https://eu.ui-avatars.com/api/?name=Uzma",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ur-PK-UzmaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ur-PK-UzmaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Urdu (Pakistan)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Antonin",
+        "languages": "cs-cz",
+        "image": "https://eu.ui-avatars.com/api/?name=Antonin",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/cs-CZ-AntoninNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "cs-CZ-AntoninNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Czech (Czech)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Andres",
+        "languages": "es-gt",
+        "image": "https://eu.ui-avatars.com/api/?name=Andres",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-GT-AndresNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-GT-AndresNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Guatemala)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Kert",
+        "languages": "et-ee",
+        "image": "https://eu.ui-avatars.com/api/?name=Kert",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/et-EE-KertNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "et-EE-KertNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Estonian (Estonia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Amal",
+        "languages": "ar-qa",
+        "image": "https://eu.ui-avatars.com/api/?name=Amal",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-QA-AmalNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-QA-AmalNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Qatar)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "NamMinh",
+        "languages": "vi-vn",
+        "image": "https://eu.ui-avatars.com/api/?name=NamMinh",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/vi-VN-NamMinhNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "vi-VN-NamMinhNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Vietnamese (Vietnam)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Blessica",
+        "languages": "fil-ph",
+        "image": "https://eu.ui-avatars.com/api/?name=Blessica",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fil-PH-BlessicaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "fil-PH-BlessicaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Filipino (Philippines)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Enric",
+        "languages": "ca-es",
+        "image": "https://eu.ui-avatars.com/api/?name=Enric",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ca-ES-EnricNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ca-ES-EnricNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Catalan (Spain)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Zofia",
+        "languages": "pl-pl",
+        "image": "https://eu.ui-avatars.com/api/?name=Zofia",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/pl-PL-ZofiaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "pl-PL-ZofiaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Polish (Poland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Pallavi (ta)",
+        "languages": "ta-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Pallavi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ta-IN-PallaviNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ta-IN-PallaviNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Tamil (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Joana",
+        "languages": "ca-es",
+        "image": "https://eu.ui-avatars.com/api/?name=Joana",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ca-ES-JoanaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ca-ES-JoanaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Catalan (Spain)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sebastian",
+        "languages": "es-ve",
+        "image": "https://eu.ui-avatars.com/api/?name=Sebastian",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-VE-SebastianNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-VE-SebastianNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Venezuela)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sabela",
+        "languages": "gl-es",
+        "image": "https://eu.ui-avatars.com/api/?name=Sabela",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/gl-ES-SabelaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "gl-ES-SabelaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Galician"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Victor",
+        "languages": "es-pr",
+        "image": "https://eu.ui-avatars.com/api/?name=Victor",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-PR-VictorNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-PR-VictorNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Puerto Rico)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Thando",
+        "languages": "zu-za",
+        "image": "https://eu.ui-avatars.com/api/?name=Thando",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zu-ZA-ThandoNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "zu-ZA-ThandoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Zulu (South Africa)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Paola",
+        "languages": "es-ve",
+        "image": "https://eu.ui-avatars.com/api/?name=Paola",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-VE-PaolaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-VE-PaolaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Venezuela)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Avri",
+        "languages": "he-il",
+        "image": "https://eu.ui-avatars.com/api/?name=Avri",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/he-IL-AvriNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "he-IL-AvriNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Hebrew (Israel)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Elena",
+        "languages": "es-ar",
+        "image": "https://eu.ui-avatars.com/api/?name=Elena",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-AR-ElenaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "es-AR-ElenaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Argentina)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Teresa",
+        "languages": "es-gq",
+        "image": "https://eu.ui-avatars.com/api/?name=Teresa",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-GQ-TeresaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-GQ-TeresaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Equatorial Guinea)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Luis",
+        "languages": "es-ec",
+        "image": "https://eu.ui-avatars.com/api/?name=Luis",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-EC-LuisNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-EC-LuisNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Ecuador)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Rafiki",
+        "languages": "sw-ke",
+        "image": "https://eu.ui-avatars.com/api/?name=Rafiki",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sw-KE-RafikiNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "sw-KE-RafikiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Swahili (Kenya)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Xiaoqiu",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Xiaoqiu",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-XiaoqiuNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "zh-CN-XiaoqiuNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Confident",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Iselin",
+        "languages": "nb-no",
+        "image": "https://eu.ui-avatars.com/api/?name=Iselin",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/nb-NO-IselinNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "nb-NO-IselinNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Norwegian (Bokm\u00e5l, Norway)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Noura",
+        "languages": "ar-kw",
+        "image": "https://eu.ui-avatars.com/api/?name=Noura",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-KW-NouraNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-KW-NouraNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Kuwait)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Borislav",
+        "languages": "bg-bg",
+        "image": "https://eu.ui-avatars.com/api/?name=Borislav",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/bg-BG-BorislavNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "bg-BG-BorislavNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Bulgarian (Bulgaria)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Taim",
+        "languages": "ar-jo",
+        "image": "https://eu.ui-avatars.com/api/?name=Taim",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-JO-TaimNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-JO-TaimNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Jordan)"
+    },
+    {
+        "scenarios": [
+            "Calm",
+            "Fearful",
+            "Cheerful",
+            "Disgruntled",
+            "Serious",
+            "Angry",
+            "Gentle",
+            "Depressed"
+        ],
+        "displayName": "Xiaoxuan",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Xiaoxuan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-XiaoxuanNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-CN-XiaoxuanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Joyful",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Rehema",
+        "languages": "sw-tz",
+        "image": "https://eu.ui-avatars.com/api/?name=Rehema",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sw-TZ-RehemaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "sw-TZ-RehemaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Swahili (Tanzania)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Elvira",
+        "languages": "es-es",
+        "image": "https://eu.ui-avatars.com/api/?name=Elvira",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-ES-ElviraNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "es-ES-ElviraNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Spain)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Manohar (mr)",
+        "languages": "mr-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Manohar",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/mr-IN-ManoharNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "mr-IN-ManoharNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Marathi (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Gadis",
+        "languages": "id-id",
+        "image": "https://eu.ui-avatars.com/api/?name=Gadis",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/id-ID-GadisNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "id-ID-GadisNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Indonesian (Indonesia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Salma",
+        "languages": "ar-eg",
+        "image": "https://eu.ui-avatars.com/api/?name=Salma",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-EG-SalmaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ar-EG-SalmaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Egypt)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Valluvar (ta)",
+        "languages": "ta-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Valluvar",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ta-IN-ValluvarNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ta-IN-ValluvarNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Tamil (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Xiaochen",
+        "languages": "zh-cn",
+        "image": "https://eu.ui-avatars.com/api/?name=Xiaochen",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-CN-XiaochenNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "zh-CN-XiaochenNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Trustworthy",
+        "ln": "Chinese (Mandarin, Simplified)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Laith",
+        "languages": "ar-sy",
+        "image": "https://eu.ui-avatars.com/api/?name=Laith",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-SY-LaithNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-SY-LaithNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Syria)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Alba",
+        "languages": "ca-es",
+        "image": "https://eu.ui-avatars.com/api/?name=Alba",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ca-ES-AlbaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ca-ES-AlbaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Informative",
+        "ln": "Catalan (Spain)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Tania",
+        "languages": "es-py",
+        "image": "https://eu.ui-avatars.com/api/?name=Tania",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-PY-TaniaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-PY-TaniaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Paraguay)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Swara (hi)",
+        "languages": "hi-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Swara",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/hi-IN-SwaraNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "hi-IN-SwaraNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Hindi (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Angelo",
+        "languages": "fil-ph",
+        "image": "https://eu.ui-avatars.com/api/?name=Angelo",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fil-PH-AngeloNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "fil-PH-AngeloNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Filipino (Philippines)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Eric",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Eric",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-EricNeural.wav",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "en-US-EricNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Engaging",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "HsiaoYu",
+        "languages": "zh-tw",
+        "image": "https://eu.ui-avatars.com/api/?name=HsiaoYu",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/zh-TW-HsiaoYuNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "zh-TW-HsiaoYuNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Informative",
+        "ln": "Chinese (Taiwanese Mandarin)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Yolanda",
+        "languages": "es-ni",
+        "image": "https://eu.ui-avatars.com/api/?name=Yolanda",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-NI-YolandaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-NI-YolandaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Nicaragua)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Petra",
+        "languages": "sl-si",
+        "image": "https://eu.ui-avatars.com/api/?name=Petra",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sl-SI-PetraNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "sl-SI-PetraNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Slovenian (Slovenia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Mohan (te)",
+        "languages": "te-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Mohan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/te-IN-MohanNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "te-IN-MohanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Telugu (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Nabanita",
+        "languages": "bn-bd",
+        "image": "https://eu.ui-avatars.com/api/?name=Nabanita",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/bn-BD-NabanitaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "bn-BD-NabanitaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Bangla (Bangladesh)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Charline",
+        "languages": "fr-be",
+        "image": "https://eu.ui-avatars.com/api/?name=Charline",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fr-BE-CharlineNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "fr-BE-CharlineNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "French (Belgium)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Saleh",
+        "languages": "ar-ye",
+        "image": "https://eu.ui-avatars.com/api/?name=Saleh",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-YE-SalehNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-YE-SalehNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Yemen)"
+    },
+    {
+        "scenarios": [
+            "Calm"
+        ],
+        "displayName": "Francisca",
+        "languages": "pt-br",
+        "image": "https://eu.ui-avatars.com/api/?name=Francisca",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/pt-BR-FranciscaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "pt-BR-FranciscaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Portuguese (Brazil)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Niranjan (gu)",
+        "languages": "gu-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Niranjan",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/gu-IN-NiranjanNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "gu-IN-NiranjanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Gujarati (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Mateo",
+        "languages": "es-uy",
+        "image": "https://eu.ui-avatars.com/api/?name=Mateo",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-UY-MateoNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-UY-MateoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Uruguay)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Muuse",
+        "languages": "so-so",
+        "image": "https://eu.ui-avatars.com/api/?name=Muuse",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/so-SO-MuuseNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "so-SO-MuuseNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Somali (Somalia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Cora",
+        "languages": "en-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Cora",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-US-CoraNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-US-CoraNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Engaging",
+        "ln": "English (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Jonas",
+        "languages": "de-at",
+        "image": "https://eu.ui-avatars.com/api/?name=Jonas",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/de-AT-JonasNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "de-AT-JonasNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "German (Austria)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Agnieszka",
+        "languages": "pl-pl",
+        "image": "https://eu.ui-avatars.com/api/?name=Agnieszka",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/pl-PL-AgnieszkaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "pl-PL-AgnieszkaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Engaging",
+        "ln": "Polish (Poland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Daudi",
+        "languages": "sw-tz",
+        "image": "https://eu.ui-avatars.com/api/?name=Daudi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sw-TZ-DaudiNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "sw-TZ-DaudiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Swahili (Tanzania)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Jean",
+        "languages": "fr-ca",
+        "image": "https://eu.ui-avatars.com/api/?name=Jean",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fr-CA-JeanNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "fr-CA-JeanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "French (Canada)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Henri",
+        "languages": "fr-fr",
+        "image": "https://eu.ui-avatars.com/api/?name=Henri",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fr-FR-HenriNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "fr-FR-HenriNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "French (France)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Elsa",
+        "languages": "it-it",
+        "image": "https://eu.ui-avatars.com/api/?name=Elsa",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/it-IT-ElsaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "it-IT-ElsaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Friendly",
+        "ln": "Italian (Italy)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Neerja (en)",
+        "languages": "en-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Neerja",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-IN-NeerjaNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-IN-NeerjaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Friendly",
+        "ln": "English (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Dena",
+        "languages": "nl-be",
+        "image": "https://eu.ui-avatars.com/api/?name=Dena",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/nl-BE-DenaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "nl-BE-DenaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Dutch (Belgium)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Antonio",
+        "languages": "pt-br",
+        "image": "https://eu.ui-avatars.com/api/?name=Antonio",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/pt-BR-AntonioNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "pt-BR-AntonioNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Portuguese (Brazil)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Marek",
+        "languages": "pl-pl",
+        "image": "https://eu.ui-avatars.com/api/?name=Marek",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/pl-PL-MarekNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "pl-PL-MarekNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Polish (Poland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Fahed",
+        "languages": "ar-kw",
+        "image": "https://eu.ui-avatars.com/api/?name=Fahed",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-KW-FahedNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-KW-FahedNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Kuwait)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Selma",
+        "languages": "fi-fi",
+        "image": "https://eu.ui-avatars.com/api/?name=Selma",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fi-FI-SelmaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "fi-FI-SelmaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Finnish (Finland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sofia",
+        "languages": "es-bo",
+        "image": "https://eu.ui-avatars.com/api/?name=Sofia",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-BO-SofiaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-BO-SofiaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Bolivia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Fabrice",
+        "languages": "fr-ch",
+        "image": "https://eu.ui-avatars.com/api/?name=Fabrice",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fr-CH-FabriceNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "fr-CH-FabriceNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "French (Switzerland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Hedi",
+        "languages": "ar-tn",
+        "image": "https://eu.ui-avatars.com/api/?name=Hedi",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-TN-HediNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-TN-HediNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Tunisia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Joseph",
+        "languages": "mt-mt",
+        "image": "https://eu.ui-avatars.com/api/?name=Joseph",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/mt-MT-JosephNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "mt-MT-JosephNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Maltese (Malta)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Roberto",
+        "languages": "es-pa",
+        "image": "https://eu.ui-avatars.com/api/?name=Roberto",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-PA-RobertoNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-PA-RobertoNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Panama)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Pernille",
+        "languages": "nb-no",
+        "image": "https://eu.ui-avatars.com/api/?name=Pernille",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/nb-NO-PernilleNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "nb-NO-PernilleNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Calm",
+        "ln": "Norwegian (Bokm\u00e5l, Norway)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Omar",
+        "languages": "ar-ly",
+        "image": "https://eu.ui-avatars.com/api/?name=Omar",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-LY-OmarNeural.mp3",
+        "genders": "Male",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-LY-OmarNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Libya)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Mattias",
+        "languages": "sv-se",
+        "image": "https://eu.ui-avatars.com/api/?name=Mattias",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sv-SE-MattiasNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "sv-SE-MattiasNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Swedish (Sweden)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Harri",
+        "languages": "fi-fi",
+        "image": "https://eu.ui-avatars.com/api/?name=Harri",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/fi-FI-HarriNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "fi-FI-HarriNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Finnish (Finland)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Paloma",
+        "languages": "es-us",
+        "image": "https://eu.ui-avatars.com/api/?name=Paloma",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-US-PalomaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "es-US-PalomaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (United States)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Iman",
+        "languages": "ar-ly",
+        "image": "https://eu.ui-avatars.com/api/?name=Iman",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-LY-ImanNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-LY-ImanNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Libya)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Hamed",
+        "languages": "ar-sa",
+        "image": "https://eu.ui-avatars.com/api/?name=Hamed",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-SA-HamedNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "ar-SA-HamedNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Informative",
+        "ln": "Arabic (Saudi Arabia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Valentina",
+        "languages": "es-uy",
+        "image": "https://eu.ui-avatars.com/api/?name=Valentina",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-UY-ValentinaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "es-UY-ValentinaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Uruguay)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Dariya",
+        "languages": "ru-ru",
+        "image": "https://eu.ui-avatars.com/api/?name=Dariya",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ru-RU-DariyaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "ru-RU-DariyaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Russian (Russia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Libby",
+        "languages": "en-gb",
+        "image": "https://eu.ui-avatars.com/api/?name=Libby",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-GB-LibbyNeural.wav",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "en-GB-LibbyNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Informative",
+        "ln": "English (United Kingdom)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Shruti (te)",
+        "languages": "te-in",
+        "image": "https://eu.ui-avatars.com/api/?name=Shruti",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/te-IN-ShrutiNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "te-IN-ShrutiNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Telugu (India)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Conrad",
+        "languages": "de-de",
+        "image": "https://eu.ui-avatars.com/api/?name=Conrad",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/de-DE-ConradNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "de-DE-ConradNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Delightful",
+        "ln": "German (Germany)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Luke",
+        "languages": "en-za",
+        "image": "https://eu.ui-avatars.com/api/?name=Luke",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/en-ZA-LukeNeural.wav",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "en-ZA-LukeNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "English (South Africa)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Achara",
+        "languages": "th-th",
+        "image": "https://eu.ui-avatars.com/api/?name=Achara",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/th-TH-AcharaNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "th-TH-AcharaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Informative",
+        "ln": "Thai (Thailand)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Mekdes",
+        "languages": "am-et",
+        "image": "https://eu.ui-avatars.com/api/?name=Mekdes",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/am-ET-MekdesNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "am-ET-MekdesNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Amharic (Ethiopia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Sana",
+        "languages": "ar-jo",
+        "image": "https://eu.ui-avatars.com/api/?name=Sana",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/ar-JO-SanaNeural.mp3",
+        "genders": "Female",
+        "emphasize": false,
+        "provider": "microsoft",
+        "name": "ar-JO-SanaNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Arabic (Jordan)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Alvaro",
+        "languages": "es-es",
+        "image": "https://eu.ui-avatars.com/api/?name=Alvaro",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-ES-AlvaroNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "es-ES-AlvaroNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Spain)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Lukas",
+        "languages": "sk-sk",
+        "image": "https://eu.ui-avatars.com/api/?name=Lukas",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/sk-SK-LukasNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "sk-SK-LukasNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Slovak (Slovakia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Gonzalo",
+        "languages": "es-co",
+        "image": "https://eu.ui-avatars.com/api/?name=Gonzalo",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/es-CO-GonzaloNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "es-CO-GonzaloNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Spanish (Colombia)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "HoaiMy",
+        "languages": "vi-vn",
+        "image": "https://eu.ui-avatars.com/api/?name=HoaiMy",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/vi-VN-HoaiMyNeural.mp3",
+        "genders": "Female",
+        "provider": "microsoft",
+        "name": "vi-VN-HoaiMyNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Vietnamese (Vietnam)"
+    },
+    {
+        "scenarios": [],
+        "displayName": "Arnaud",
+        "languages": "nl-be",
+        "image": "https://eu.ui-avatars.com/api/?name=Arnaud",
+        "sample": "https://d3cq1xcrede9cy.cloudfront.net/voices/nl-BE-ArnaudNeural.mp3",
+        "genders": "Male",
+        "provider": "microsoft",
+        "name": "nl-BE-ArnaudNeural",
+        "features": {
+            "pitch": true,
+            "emphasize": false,
+            "pause": false,
+            "speed": true
+        },
+        "style": "Natural",
+        "ln": "Dutch (Belgium)"
+    }
+]

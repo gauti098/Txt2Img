@@ -1,0 +1,5 @@
+Hi, {{ name }}
+This is Group Campaign email Send by {{ sender_email }} for Campaign {{ campaign_name }} 😊.
+
+Click Here to preview Test Campaign:
+    {{ campaign_url }}

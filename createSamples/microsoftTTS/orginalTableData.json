@@ -1,0 +1,1210 @@
+[
+    [
+        "af-ZA",
+        "Afrikaans (South Africa)",
+        "af-ZA",
+        "Plain text",
+        "am-ET-AmehaNeural (Male)\\naf-ZA-WillemNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "am-ET",
+        "Amharic (Ethiopia)",
+        "am-ET",
+        "Plain text",
+        "af-ZA-AdriNeural (Female)\\nam-ET-MekdesNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "ar-AE",
+        "Arabic (United Arab Emirates)",
+        "ar-AE",
+        "Plain text",
+        "ar-AE-FatimaNeural4,5,6 (Female)\\nar-AE-HamdanNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ar-BH",
+        "Arabic (Bahrain)",
+        "ar-BH",
+        "Plain text",
+        "ar-BH-AliNeural4,5,6 (Male)\\nar-BH-LailaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ar-DZ",
+        "Arabic (Algeria)",
+        "ar-DZ",
+        "Plain text",
+        "ar-DZ-AminaNeural4,5,6 (Female)\\nar-DZ-IsmaelNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ar-EG",
+        "Arabic (Egypt)",
+        "ar-EG",
+        "Plain text",
+        "ar-EG-SalmaNeural4,5,6 (Female)\\nar-EG-ShakirNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "ar-IL",
+        "Arabic (Israel)",
+        "ar-IL",
+        "Plain text",
+        "Not supported",
+        "Not supported"
+    ],
+    [
+        "ar-IQ",
+        "Arabic (Iraq)",
+        "ar-IQ",
+        "Plain text",
+        "ar-IQ-BasselNeural4,5,6 (Male)\\nar-IQ-RanaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ar-JO",
+        "Arabic (Jordan)",
+        "ar-JO",
+        "Plain text",
+        "ar-JO-SanaNeural4,5,6 (Female)\\nar-JO-TaimNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ar-KW",
+        "Arabic (Kuwait)",
+        "ar-KW",
+        "Plain text",
+        "ar-KW-FahedNeural4,5,6 (Male)\\nar-KW-NouraNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ar-LB",
+        "Arabic (Lebanon)",
+        "ar-LB",
+        "Plain text",
+        "ar-LB-LaylaNeural4,5,6 (Female)\\nar-LB-RamiNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ar-LY",
+        "Arabic (Libya)",
+        "ar-LY",
+        "Plain text",
+        "ar-LY-ImanNeural4,5,6 (Female)\\nar-LY-OmarNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ar-MA",
+        "Arabic (Morocco)",
+        "ar-MA",
+        "Plain text",
+        "ar-MA-JamalNeural4,5,6 (Male)\\nar-MA-MounaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ar-OM",
+        "Arabic (Oman)",
+        "ar-OM",
+        "Plain text",
+        "ar-OM-AbdullahNeural4,5,6 (Male)\\nar-OM-AyshaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ar-PS",
+        "Arabic (Palestinian Territories)",
+        "ar-PS",
+        "Plain text",
+        "Not supported",
+        "Not supported"
+    ],
+    [
+        "ar-QA",
+        "Arabic (Qatar)",
+        "ar-QA",
+        "Plain text",
+        "ar-QA-AmalNeural4,5,6 (Female)\\nar-QA-MoazNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ar-SA",
+        "Arabic (Saudi Arabia)",
+        "ar-SA",
+        "Plain text",
+        "ar-SA-HamedNeural4,5,6 (Male)\\nar-SA-ZariyahNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "ar-SY",
+        "Arabic (Syria)",
+        "ar-SY",
+        "Plain text",
+        "ar-SY-AmanyNeural4,5,6 (Female)\\nar-SY-LaithNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ar-TN",
+        "Arabic (Tunisia)",
+        "ar-TN",
+        "Plain text",
+        "ar-TN-HediNeural4,5,6 (Male)\\nar-TN-ReemNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ar-YE",
+        "Arabic (Yemen)",
+        "ar-YE",
+        "Plain text",
+        "ar-YE-MaryamNeural4,5,6 (Female)\\nar-YE-SalehNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "az-AZ",
+        "Azerbaijani (Azerbaijan)",
+        "az-AZ",
+        "Plain text",
+        "az-AZ-BabekNeural (Male)\\naz-AZ-BanuNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "bg-BG",
+        "Bulgarian (Bulgaria)",
+        "bg-BG",
+        "Plain text",
+        "bg-BG-BorislavNeural4,5,6 (Male)\\nbg-BG-KalinaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "bn-BD",
+        "Bangla (Bangladesh)",
+        "Not supported",
+        "Not supported",
+        "bn-BD-NabanitaNeural (Female)\\nbn-BD-PradeepNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "bn-IN",
+        "Bengali (India)",
+        "bn-IN",
+        "Plain text",
+        "bn-IN-BashkarNeural (Male)\\nbn-IN-TanishaaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "bs-BA",
+        "Bosnian (Bosnia)",
+        "bs-BA",
+        "Plain text",
+        "bs-BA-GoranNeural (Male)\\nbs-BA-VesnaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "ca-ES",
+        "Catalan (Spain)",
+        "ca-ES",
+        "Plain text\\n\\nPronunciation",
+        "ca-ES-AlbaNeural4,5,6 (Female)\\nca-ES-EnricNeural4,5,6 (Male)\\nca-ES-JoanaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "cs-CZ",
+        "Czech (Czech)",
+        "cs-CZ",
+        "Plain text\\n\\nPronunciation",
+        "cs-CZ-AntoninNeural4,5,6 (Male)\\ncs-CZ-VlastaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "cy-GB",
+        "Welsh (United Kingdom)",
+        "cy-GB",
+        "Plain text",
+        "cy-GB-AledNeural (Male)\\ncy-GB-NiaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "da-DK",
+        "Danish (Denmark)",
+        "da-DK",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nPronunciation",
+        "da-DK-ChristelNeural4,5,6 (Female)\\nda-DK-JeppeNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "de-AT",
+        "German (Austria)",
+        "de-AT",
+        "Plain text\\n\\nPronunciation",
+        "de-AT-IngridNeural4,5,6 (Female)\\nde-AT-JonasNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "de-CH",
+        "German (Switzerland)",
+        "de-CH",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nPronunciation",
+        "de-CH-JanNeural4,5,6 (Male)\\nde-CH-LeniNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "de-DE",
+        "German (Germany)",
+        "de-DE",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "de-DE-AmalaNeural4,5,6 (Female)\\nde-DE-BerndNeural4,5,6 (Male)\\nde-DE-ChristophNeural4,5,6 (Male)\\nde-DE-ConradNeural4,5,6 (Male)\\nde-DE-ElkeNeural4,5,6 (Female)\\nde-DE-GiselaNeural4,5,6,8 (Female)\\nde-DE-KasperNeural4,5,6 (Male)\\nde-DE-KatjaNeural4,5,6 (Female)\\nde-DE-KillianNeural4,5,6 (Male)\\nde-DE-KlarissaNeural4,5,6 (Female)\\nde-DE-KlausNeural4,5,6 (Male)\\nde-DE-LouisaNeural4,5,6 (Female)\\nde-DE-MajaNeural4,5,6 (Female)\\nde-DE-RalfNeural4,5,6 (Male)\\nde-DE-TanjaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "el-GR",
+        "Greek (Greece)",
+        "el-GR",
+        "Plain text",
+        "el-GR-AthinaNeural4,5,6 (Female)\\nel-GR-NestorasNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "en-AU",
+        "English (Australia)",
+        "en-AU",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "en-AU-AnnetteNeural1,4,5,6 (Female)\\nen-AU-CarlyNeural1,4,5,6 (Female)\\nen-AU-DarrenNeural1,4,5,6 (Male)\\nen-AU-DuncanNeural1,4,5,6 (Male)\\nen-AU-ElsieNeural1,4,5,6 (Female)\\nen-AU-FreyaNeural1,4,5,6 (Female)\\nen-AU-JoanneNeural1,4,5,6 (Female)\\nen-AU-KenNeural1,4,5,6 (Male)\\nen-AU-KimNeural1,4,5,6 (Female)\\nen-AU-NatashaNeural4,5,6 (Female)\\nen-AU-NeilNeural1,4,5,6 (Male)\\nen-AU-TimNeural1,4,5,6 (Male)\\nen-AU-TinaNeural1,4,5,6 (Female)\\nen-AU-WilliamNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "en-CA",
+        "English (Canada)",
+        "en-CA",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "en-CA-ClaraNeural4,5,6 (Female)\\nen-CA-LiamNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)"
+    ],
+    [
+        "en-GB",
+        "English (United Kingdom)",
+        "en-GB",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "en-GB-AbbiNeural4,5,6 (Female)\\nen-GB-AlfieNeural4,5,6 (Male)\\nen-GB-BellaNeural4,5,6 (Female)\\nen-GB-ElliotNeural4,5,6 (Male)\\nen-GB-EthanNeural4,5,6 (Male)\\nen-GB-HollieNeural4,5,6 (Female)\\nen-GB-LibbyNeural4,5,6 (Female)\\nen-GB-MaisieNeural4,5,6,8 (Female)\\nen-GB-NoahNeural4,5,6 (Male)\\nen-GB-OliverNeural4,5,6 (Male)\\nen-GB-OliviaNeural4,5,6 (Female)\\nen-GB-RyanNeural1,2,4,5,6 (Male)\\nen-GB-SoniaNeural1,2,4,5,6 (Female)\\nen-GB-ThomasNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "en-GH",
+        "English (Ghana)",
+        "en-GH",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation",
+        "Not supported",
+        "Not supported"
+    ],
+    [
+        "en-HK",
+        "English (Hongkong)",
+        "en-HK",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nPronunciation",
+        "en-HK-SamNeural4,5,6 (Male)\\nen-HK-YanNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "en-IE",
+        "English (Ireland)",
+        "en-IE",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nPronunciation",
+        "en-IE-ConnorNeural4,5,6 (Male)\\nen-IE-EmilyNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "en-IN",
+        "English (India)",
+        "en-IN",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "en-IN-NeerjaNeural4,5,6 (Female)\\nen-IN-PrabhatNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "en-KE",
+        "English (Kenya)",
+        "en-KE",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation",
+        "en-KE-AsiliaNeural4,5,6 (Female)\\nen-KE-ChilembaNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "en-NG",
+        "English (Nigeria)",
+        "en-NG",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nPronunciation",
+        "en-NG-AbeoNeural4,5,6 (Male)\\nen-NG-EzinneNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "en-NZ",
+        "English (New Zealand)",
+        "en-NZ",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nPronunciation",
+        "en-NZ-MitchellNeural4,5,6 (Male)\\nen-NZ-MollyNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "en-PH",
+        "English (Philippines)",
+        "en-PH",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nPronunciation",
+        "en-PH-JamesNeural4,5,6 (Male)\\nen-PH-RosaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "en-SG",
+        "English (Singapore)",
+        "en-SG",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nPronunciation",
+        "en-SG-LunaNeural4,5,6 (Female)\\nen-SG-WayneNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "en-TZ",
+        "English (Tanzania)",
+        "en-TZ",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation",
+        "en-TZ-ElimuNeural4,5,6 (Male)\\nen-TZ-ImaniNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "en-US",
+        "English (United States)",
+        "en-US",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "en-US-AIGenerate1Neural1,4,5,6 (Male)\\nen-US-AIGenerate2Neural1,4,5,6 (Female)\\nen-US-AmberNeural4,5,6 (Female)\\nen-US-AnaNeural4,5,6,8 (Female)\\nen-US-AriaNeural2,4,5,6 (Female)\\nen-US-AshleyNeural4,5,6 (Female)\\nen-US-BrandonNeural4,5,6 (Male)\\nen-US-ChristopherNeural4,5,6 (Male)\\nen-US-CoraNeural4,5,6 (Female)\\nen-US-DavisNeural1,2,4,5,6 (Male)\\nen-US-ElizabethNeural4,5,6 (Female)\\nen-US-EricNeural4,5,6 (Male)\\nen-US-GuyNeural2,4,5,6 (Male)\\nen-US-JacobNeural4,5,6 (Male)\\nen-US-JaneNeural1,2,4,5,6 (Female)\\nen-US-JasonNeural1,2,4,5,6 (Male)\\nen-US-JennyMultilingualNeural4,5,6,7 (Female)\\nen-US-JennyNeural2,4,5,6 (Female)\\nen-US-MichelleNeural4,5,6 (Female)\\nen-US-MonicaNeural4,5,6 (Female)\\nen-US-NancyNeural1,2,4,5,6 (Female)\\nen-US-RogerNeural1,4,5,6 (Male)\\nen-US-SaraNeural2,4,5,6 (Female)\\nen-US-SteffanNeural1,4,5,6 (Male)\\nen-US-TonyNeural1,2,4,5,6 (Male)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "en-ZA",
+        "English (South Africa)",
+        "en-ZA",
+        "Audio + human-labeled transcript\\n\\nAudio\\n\\nPlain text\\n\\nPronunciation",
+        "en-ZA-LeahNeural4,5,6 (Female)\\nen-ZA-LukeNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "es-AR",
+        "Spanish (Argentina)",
+        "es-AR",
+        "Plain text\\n\\nPronunciation",
+        "es-AR-ElenaNeural4,5,6 (Female)\\nes-AR-TomasNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "es-BO",
+        "Spanish (Bolivia)",
+        "es-BO",
+        "Plain text\\n\\nPronunciation",
+        "es-BO-MarceloNeural4,5,6 (Male)\\nes-BO-SofiaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-CL",
+        "Spanish (Chile)",
+        "es-CL",
+        "Plain text\\n\\nPronunciation",
+        "es-CL-CatalinaNeural4,5,6 (Female)\\nes-CL-LorenzoNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "es-CO",
+        "Spanish (Colombia)",
+        "es-CO",
+        "Plain text\\n\\nPronunciation",
+        "es-CO-GonzaloNeural4,5,6 (Male)\\nes-CO-SalomeNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-CR",
+        "Spanish (Costa Rica)",
+        "es-CR",
+        "Plain text\\n\\nPronunciation",
+        "es-CR-JuanNeural4,5,6 (Male)\\nes-CR-MariaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-CU",
+        "Spanish (Cuba)",
+        "es-CU",
+        "Plain text\\n\\nPronunciation",
+        "es-CU-BelkysNeural4,5,6 (Female)\\nes-CU-ManuelNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "es-DO",
+        "Spanish (Dominican Republic)",
+        "es-DO",
+        "Plain text\\n\\nPronunciation",
+        "es-DO-EmilioNeural4,5,6 (Male)\\nes-DO-RamonaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-EC",
+        "Spanish (Ecuador)",
+        "es-EC",
+        "Plain text\\n\\nPronunciation",
+        "es-EC-AndreaNeural4,5,6 (Female)\\nes-EC-LuisNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "es-ES",
+        "Spanish (Spain)",
+        "es-ES",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "es-ES-AbrilNeural1,4,5,6 (Female)\\nes-ES-AlvaroNeural1,4,5,6 (Male)\\nes-ES-ArnauNeural1,4,5,6 (Male)\\nes-ES-DarioNeural1,4,5,6 (Male)\\nes-ES-EliasNeural1,4,5,6 (Male)\\nes-ES-ElviraNeural4,5,6 (Female)\\nes-ES-EstrellaNeural1,4,5,6 (Female)\\nes-ES-IreneNeural1,4,5,6 (Female)\\nes-ES-LaiaNeural1,4,5,6 (Female)\\nes-ES-LiaNeural1,4,5,6 (Female)\\nes-ES-NilNeural1,4,5,6 (Male)\\nes-ES-SaulNeural1,4,5,6 (Male)\\nes-ES-TeoNeural1,4,5,6 (Male)\\nes-ES-TrianaNeural1,4,5,6 (Female)\\nes-ES-VeraNeural1,4,5,6 (Female)",
+        "Custom Neural Voice Pro\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "es-GQ",
+        "Spanish (Equatorial Guinea)",
+        "es-GQ",
+        "Plain text",
+        "es-GQ-JavierNeural4,5,6 (Male)\\nes-GQ-TeresaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-GT",
+        "Spanish (Guatemala)",
+        "es-GT",
+        "Plain text\\n\\nPronunciation",
+        "es-GT-AndresNeural4,5,6 (Male)\\nes-GT-MartaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-HN",
+        "Spanish (Honduras)",
+        "es-HN",
+        "Plain text\\n\\nPronunciation",
+        "es-HN-CarlosNeural4,5,6 (Male)\\nes-HN-KarlaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-MX",
+        "Spanish (Mexico)",
+        "es-MX",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "es-MX-BeatrizNeural1,4,5,6 (Female)\\nes-MX-CandelaNeural1,4,5,6 (Female)\\nes-MX-CarlotaNeural1,4,5,6 (Female)\\nes-MX-CecilioNeural1,4,5,6 (Male)\\nes-MX-DaliaNeural4,5,6 (Female)\\nes-MX-GerardoNeural1,4,5,6 (Male)\\nes-MX-JorgeNeural1,2,4,5,6 (Male)\\nes-MX-LarissaNeural1,4,5,6 (Female)\\nes-MX-LibertoNeural1,4,5,6 (Male)\\nes-MX-LucianoNeural1,4,5,6 (Male)\\nes-MX-MarinaNeural1,4,5,6 (Female)\\nes-MX-NuriaNeural1,4,5,6 (Female)\\nes-MX-PelayoNeural1,4,5,6 (Male)\\nes-MX-RenataNeural1,4,5,6 (Female)\\nes-MX-YagoNeural1,4,5,6 (Male)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "es-NI",
+        "Spanish (Nicaragua)",
+        "es-NI",
+        "Plain text\\n\\nPronunciation",
+        "es-NI-FedericoNeural4,5,6 (Male)\\nes-NI-YolandaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-PA",
+        "Spanish (Panama)",
+        "es-PA",
+        "Plain text\\n\\nPronunciation",
+        "es-PA-MargaritaNeural4,5,6 (Female)\\nes-PA-RobertoNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "es-PE",
+        "Spanish (Peru)",
+        "es-PE",
+        "Plain text\\n\\nPronunciation",
+        "es-PE-AlexNeural4,5,6 (Male)\\nes-PE-CamilaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-PR",
+        "Spanish (Puerto Rico)",
+        "es-PR",
+        "Plain text\\n\\nPronunciation",
+        "es-PR-KarinaNeural4,5,6 (Female)\\nes-PR-VictorNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "es-PY",
+        "Spanish (Paraguay)",
+        "es-PY",
+        "Plain text\\n\\nPronunciation",
+        "es-PY-MarioNeural4,5,6 (Male)\\nes-PY-TaniaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-SV",
+        "Spanish (El Salvador)",
+        "es-SV",
+        "Plain text\\n\\nPronunciation",
+        "es-SV-LorenaNeural4,5,6 (Female)\\nes-SV-RodrigoNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "es-US",
+        "Spanish (United States)",
+        "es-US",
+        "Plain text\\n\\nPronunciation",
+        "es-US-AlonsoNeural4,5,6 (Male)\\nes-US-PalomaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-UY",
+        "Spanish (Uruguay)",
+        "es-UY",
+        "Plain text\\n\\nPronunciation",
+        "es-UY-MateoNeural4,5,6 (Male)\\nes-UY-ValentinaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "es-VE",
+        "Spanish (Venezuela)",
+        "es-VE",
+        "Plain text\\n\\nPronunciation",
+        "es-VE-PaolaNeural4,5,6 (Female)\\nes-VE-SebastianNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "et-EE",
+        "Estonian (Estonia)",
+        "et-EE",
+        "Plain text\\n\\nPronunciation",
+        "et-EE-AnuNeural (Female)\\net-EE-KertNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "eu-ES",
+        "Basque",
+        "eu-ES",
+        "Plain text",
+        "eu-ES-AinhoaNeural (Female)\\neu-ES-AnderNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "fa-IR",
+        "Persian (Iran)",
+        "fa-IR",
+        "Plain text",
+        "fa-IR-DilaraNeural (Female)\\nfa-IR-FaridNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "fi-FI",
+        "Finnish (Finland)",
+        "fi-FI",
+        "Plain text\\n\\nPronunciation",
+        "fi-FI-HarriNeural4,5,6 (Male)\\nfi-FI-NooraNeural4,5,6 (Female)\\nfi-FI-SelmaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "fil-PH",
+        "Filipino (Philippines)",
+        "fil-PH",
+        "Plain text\\n\\nPronunciation",
+        "fil-PH-AngeloNeural (Male)\\nfil-PH-BlessicaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "fr-BE",
+        "French (Belgium)",
+        "fr-BE",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "fr-BE-CharlineNeural4,5,6 (Female)\\nfr-BE-GerardNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "fr-CA",
+        "French (Canada)",
+        "fr-CA",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "fr-CA-AntoineNeural4,5,6 (Male)\\nfr-CA-JeanNeural4,5,6 (Male)\\nfr-CA-SylvieNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "fr-CH",
+        "French (Switzerland)",
+        "fr-CH",
+        "Plain text\\n\\nPronunciation",
+        "fr-CH-ArianeNeural4,5,6 (Female)\\nfr-CH-FabriceNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "fr-FR",
+        "French (France)",
+        "fr-FR",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "fr-FR-AlainNeural4,5,6 (Male)\\nfr-FR-BrigitteNeural4,5,6 (Female)\\nfr-FR-CelesteNeural4,5,6 (Female)\\nfr-FR-ClaudeNeural4,5,6 (Male)\\nfr-FR-CoralieNeural4,5,6 (Female)\\nfr-FR-DeniseNeural1,2,4,5,6 (Female)\\nfr-FR-EloiseNeural4,5,6,8 (Female)\\nfr-FR-HenriNeural1,2,4,5,6 (Male)\\nfr-FR-JacquelineNeural4,5,6 (Female)\\nfr-FR-JeromeNeural4,5,6 (Male)\\nfr-FR-JosephineNeural4,5,6 (Female)\\nfr-FR-MauriceNeural4,5,6 (Male)\\nfr-FR-YvesNeural4,5,6 (Male)\\nfr-FR-YvetteNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "ga-IE",
+        "Irish (Ireland)",
+        "ga-IE",
+        "Plain text\\n\\nPronunciation",
+        "ga-IE-ColmNeural (Male)\\nga-IE-OrlaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "gl-ES",
+        "Galician",
+        "gl-ES",
+        "Plain text",
+        "gl-ES-RoiNeural (Male)\\ngl-ES-SabelaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "gu-IN",
+        "Gujarati (India)",
+        "gu-IN",
+        "Plain text",
+        "gu-IN-DhwaniNeural4,5,6 (Female)\\ngu-IN-NiranjanNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "he-IL",
+        "Hebrew (Israel)",
+        "he-IL",
+        "Plain text",
+        "he-IL-AvriNeural4,5,6 (Male)\\nhe-IL-HilaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "hi-IN",
+        "Hindi (India)",
+        "hi-IN",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nPhrase list",
+        "hi-IN-MadhurNeural4,5,6 (Male)\\nhi-IN-SwaraNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "hr-HR",
+        "Croatian (Croatia)",
+        "hr-HR",
+        "Plain text\\n\\nPronunciation",
+        "hr-HR-GabrijelaNeural4,5,6 (Female)\\nhr-HR-SreckoNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "hu-HU",
+        "Hungarian (Hungary)",
+        "hu-HU",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nPronunciation",
+        "hu-HU-NoemiNeural4,5,6 (Female)\\nhu-HU-TamasNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "hy-AM",
+        "Armenian (Armenia)",
+        "hy-AM",
+        "Plain text",
+        "hy-AM-AnahitNeural (Female)\\nhy-AM-HaykNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "id-ID",
+        "Indonesian (Indonesia)",
+        "id-ID",
+        "Plain text\\n\\nPronunciation",
+        "id-ID-ArdiNeural4,5,6 (Male)\\nid-ID-GadisNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "is-IS",
+        "Icelandic (Iceland)",
+        "is-IS",
+        "Plain text",
+        "is-IS-GudrunNeural (Female)\\nis-IS-GunnarNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "it-CH",
+        "Italian (Switzerland)",
+        "it-CH",
+        "Plain text",
+        "Not supported",
+        "Not supported"
+    ],
+    [
+        "it-IT",
+        "Italian (Italy)",
+        "it-IT",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "it-IT-BenignoNeural1,4,5,6 (Male)\\nit-IT-CalimeroNeural1,4,5,6 (Male)\\nit-IT-CataldoNeural1,4,5,6 (Male)\\nit-IT-DiegoNeural1,4,5,6 (Male)\\nit-IT-ElsaNeural4,5,6 (Female)\\nit-IT-FabiolaNeural1,4,5,6 (Female)\\nit-IT-FiammaNeural1,4,5,6 (Female)\\nit-IT-GianniNeural1,4,5,6 (Male)\\nit-IT-ImeldaNeural1,4,5,6 (Female)\\nit-IT-IrmaNeural1,4,5,6 (Female)\\nit-IT-IsabellaNeural1,2,4,5,6 (Female)\\nit-IT-LisandroNeural1,4,5,6 (Male)\\nit-IT-PalmiraNeural1,4,5,6 (Female)\\nit-IT-PierinaNeural1,4,5,6 (Female)\\nit-IT-RinaldoNeural1,4,5,6 (Male)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "ja-JP",
+        "Japanese (Japan)",
+        "ja-JP",
+        "Plain text\\n\\nStructured text\\n\\nPhrase list",
+        "ja-JP-AoiNeural1,4,5,6 (Female)\\nja-JP-DaichiNeural1,4,5,6 (Male)\\nja-JP-KeitaNeural4,5,6 (Male)\\nja-JP-MayuNeural1,4,5,6 (Female)\\nja-JP-NanamiNeural2,4,5,6 (Female)\\nja-JP-NaokiNeural1,4,5,6 (Male)\\nja-JP-ShioriNeural1,4,5,6 (Female)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "jv-ID",
+        "Javanese (Indonesia)",
+        "jv-ID",
+        "Plain text",
+        "jv-ID-DimasNeural (Male)\\njv-ID-SitiNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "ka-GE",
+        "Georgian (Georgia)",
+        "ka-GE",
+        "Plain text",
+        "ka-GE-EkaNeural (Female)\\nka-GE-GiorgiNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "kk-KZ",
+        "Kazakh (Kazakhstan)",
+        "kk-KZ",
+        "Plain text",
+        "kk-KZ-AigulNeural (Female)\\nkk-KZ-DauletNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "km-KH",
+        "Khmer (Cambodia)",
+        "km-KH",
+        "Plain text",
+        "km-KH-PisethNeural (Male)\\nkm-KH-SreymomNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "kn-IN",
+        "Kannada (India)",
+        "kn-IN",
+        "Plain text",
+        "kn-IN-GaganNeural (Male)\\nkn-IN-SapnaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "ko-KR",
+        "Korean (Korea)",
+        "ko-KR",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPhrase list",
+        "ko-KR-BongJinNeural1,4,5,6 (Male)\\nko-KR-GookMinNeural1,4,5,6 (Male)\\nko-KR-InJoonNeural4,5,6 (Male)\\nko-KR-JiMinNeural1,4,5,6 (Female)\\nko-KR-SeoHyeonNeural1,4,5,6 (Female)\\nko-KR-SoonBokNeural1,4,5,6 (Female)\\nko-KR-SunHiNeural4,5,6 (Female)\\nko-KR-YuJinNeural1,4,5,6 (Female)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "lo-LA",
+        "Lao (Laos)",
+        "lo-LA",
+        "Plain text",
+        "lo-LA-ChanthavongNeural (Male)\\nlo-LA-KeomanyNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "lt-LT",
+        "Lithuanian (Lithuania)",
+        "lt-LT",
+        "Plain text\\n\\nPronunciation",
+        "lt-LT-LeonasNeural (Male)\\nlt-LT-OnaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "lv-LV",
+        "Latvian (Latvia)",
+        "lv-LV",
+        "Plain text\\n\\nPronunciation",
+        "lv-LV-EveritaNeural (Female)\\nlv-LV-NilsNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "mk-MK",
+        "Macedonian (Republic of North Macedonia)",
+        "mk-MK",
+        "Plain text",
+        "mk-MK-AleksandarNeural (Male)\\nmk-MK-MarijaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "ml-IN",
+        "Malayalam (India)",
+        "ml-IN",
+        "Plain text",
+        "ml-IN-MidhunNeural (Male)\\nml-IN-SobhanaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "mn-MN",
+        "Mongolian (Mongolia)",
+        "mn-MN",
+        "Plain text",
+        "mn-MN-BataaNeural (Male)\\nmn-MN-YesuiNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "mr-IN",
+        "Marathi (India)",
+        "mr-IN",
+        "Plain text",
+        "mr-IN-AarohiNeural4,5,6 (Female)\\nmr-IN-ManoharNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ms-MY",
+        "Malay (Malaysia)",
+        "ms-MY",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "ms-MY-OsmanNeural4,5,6 (Male)\\nms-MY-YasminNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "mt-MT",
+        "Maltese (Malta)",
+        "mt-MT",
+        "Plain text",
+        "mt-MT-GraceNeural (Female)\\nmt-MT-JosephNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "my-MM",
+        "Burmese (Myanmar)",
+        "my-MM",
+        "Plain text",
+        "my-MM-NilarNeural (Female)\\nmy-MM-ThihaNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "nb-NO",
+        "Norwegian (Bokmål, Norway)",
+        "nb-NO",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "nb-NO-FinnNeural4,5,6 (Male)\\nnb-NO-IselinNeural4,5,6 (Female)\\nnb-NO-PernilleNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "ne-NP",
+        "Nepali (Nepal)",
+        "ne-NP",
+        "Plain text",
+        "ne-NP-HemkalaNeural (Female)\\nne-NP-SagarNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "nl-BE",
+        "Dutch (Belgium)",
+        "nl-BE",
+        "Plain text",
+        "nl-BE-ArnaudNeural4,5,6 (Male)\\nnl-BE-DenaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "nl-NL",
+        "Dutch (Netherlands)",
+        "nl-NL",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nPronunciation",
+        "nl-NL-ColetteNeural4,5,6 (Female)\\nnl-NL-FennaNeural4,5,6 (Female)\\nnl-NL-MaartenNeural1,4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "pl-PL",
+        "Polish (Poland)",
+        "pl-PL",
+        "Plain text\\n\\nPronunciation",
+        "pl-PL-AgnieszkaNeural4,5,6 (Female)\\npl-PL-MarekNeural4,5,6 (Male)\\npl-PL-ZofiaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "ps-AF",
+        "Pashto (Afghanistan)",
+        "ps-AF",
+        "Plain text",
+        "ps-AF-GulNawazNeural (Male)\\nps-AF-LatifaNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "pt-BR",
+        "Portuguese (Brazil)",
+        "pt-BR",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPronunciation\\n\\nPhrase list",
+        "pt-BR-AntonioNeural4,5,6 (Male)\\npt-BR-BrendaNeural1,4,5,6 (Female)\\npt-BR-DonatoNeural1,4,5,6 (Male)\\npt-BR-ElzaNeural1,4,5,6 (Female)\\npt-BR-FabioNeural1,4,5,6 (Male)\\npt-BR-FranciscaNeural2,4,5,6 (Female)\\npt-BR-GiovannaNeural1,4,5,6 (Female)\\npt-BR-HumbertoNeural1,4,5,6 (Male)\\npt-BR-JulioNeural1,4,5,6 (Male)\\npt-BR-LeilaNeural1,4,5,6 (Female)\\npt-BR-LeticiaNeural1,4,5,6 (Female)\\npt-BR-ManuelaNeural1,4,5,6 (Female)\\npt-BR-NicolauNeural1,4,5,6 (Male)\\npt-BR-ValerioNeural1,4,5,6 (Male)\\npt-BR-YaraNeural1,4,5,6 (Female)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "pt-PT",
+        "Portuguese (Portugal)",
+        "pt-PT",
+        "Plain text\\n\\nPronunciation",
+        "pt-PT-DuarteNeural4,5,6 (Male)\\npt-PT-FernandaNeural4,5,6 (Female)\\npt-PT-RaquelNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "ro-RO",
+        "Romanian (Romania)",
+        "ro-RO",
+        "Plain text\\n\\nPronunciation",
+        "ro-RO-AlinaNeural4,5,6 (Female)\\nro-RO-EmilNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "ru-RU",
+        "Russian (Russia)",
+        "ru-RU",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "ru-RU-DariyaNeural4,5,6 (Female)\\nru-RU-DmitryNeural4,5,6 (Male)\\nru-RU-SvetlanaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "si-LK",
+        "Sinhala (Sri Lanka)",
+        "si-LK",
+        "Plain text",
+        "si-LK-SameeraNeural (Male)\\nsi-LK-ThiliniNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "sk-SK",
+        "Slovak (Slovakia)",
+        "sk-SK",
+        "Plain text\\n\\nPronunciation",
+        "sk-SK-LukasNeural4,5,6 (Male)\\nsk-SK-ViktoriaNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "sl-SI",
+        "Slovenian (Slovenia)",
+        "sl-SI",
+        "Plain text\\n\\nPronunciation",
+        "sl-SI-PetraNeural4,5,6 (Female)\\nsl-SI-RokNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "so-SO",
+        "Somali (Somalia)",
+        "so-SO",
+        "Plain text",
+        "so-SO-MuuseNeural (Male)\\nso-SO-UbaxNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "sq-AL",
+        "Albanian (Albania)",
+        "sq-AL",
+        "Plain text",
+        "sq-AL-AnilaNeural (Female)\\nsq-AL-IlirNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "sr-RS",
+        "Serbian (Serbia)",
+        "sr-RS",
+        "Plain text",
+        "sr-RS-NicholasNeural (Male)\\nsr-RS-SophieNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "su-ID",
+        "Sundanese (Indonesia)",
+        "Not supported",
+        "Not supported",
+        "su-ID-JajangNeural (Male)\\nsu-ID-TutiNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "sv-SE",
+        "Swedish (Sweden)",
+        "sv-SE",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nPronunciation",
+        "sv-SE-HilleviNeural4,5,6 (Female)\\nsv-SE-MattiasNeural4,5,6 (Male)\\nsv-SE-SofieNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "sw-KE",
+        "Swahili (Kenya)",
+        "sw-KE",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "sw-KE-RafikiNeural (Male)\\nsw-KE-ZuriNeural (Female)",
+        "Not supported"
+    ],
+    [
+        "sw-TZ",
+        "Swahili (Tanzania)",
+        "sw-TZ",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "sw-TZ-DaudiNeural4,5,6 (Male)\\nsw-TZ-RehemaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ta-IN",
+        "Tamil (India)",
+        "ta-IN",
+        "Plain text",
+        "ta-IN-PallaviNeural4,5,6 (Female)\\nta-IN-ValluvarNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "ta-LK",
+        "Tamil (Sri Lanka)",
+        "Not supported",
+        "Not supported",
+        "ta-LK-KumarNeural4,5,6 (Male)\\nta-LK-SaranyaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ta-MY",
+        "Tamil (Malaysia)",
+        "Not supported",
+        "Not supported",
+        "ta-MY-KaniNeural4,5,6 (Female)\\nta-MY-SuryaNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ta-SG",
+        "Tamil (Singapore)",
+        "Not supported",
+        "Not supported",
+        "ta-SG-AnbuNeural4,5,6 (Male)\\nta-SG-VenbaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "te-IN",
+        "Telugu (India)",
+        "te-IN",
+        "Plain text",
+        "te-IN-MohanNeural4,5,6 (Male)\\nte-IN-ShrutiNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "th-TH",
+        "Thai (Thailand)",
+        "th-TH",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "th-TH-AcharaNeural4,5,6 (Female)\\nth-TH-NiwatNeural4,5,6 (Male)\\nth-TH-PremwadeeNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "tr-TR",
+        "Turkish (Turkey)",
+        "tr-TR",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "tr-TR-AhmetNeural4,5,6 (Male)\\ntr-TR-EmelNeural4,5,6 (Female)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "uk-UA",
+        "Ukrainian (Ukraine)",
+        "uk-UA",
+        "Plain text",
+        "uk-UA-OstapNeural4,5,6 (Male)\\nuk-UA-PolinaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "ur-IN",
+        "Urdu (India)",
+        "Not supported",
+        "Not supported",
+        "ur-IN-GulNeural4,5,6 (Female)\\nur-IN-SalmanNeural4,5,6 (Male)",
+        "Not supported"
+    ],
+    [
+        "ur-PK",
+        "Urdu (Pakistan)",
+        "Not supported",
+        "Not supported",
+        "ur-PK-AsadNeural4,5,6 (Male)\\nur-PK-UzmaNeural4,5,6 (Female)",
+        "Not supported"
+    ],
+    [
+        "uz-UZ",
+        "Uzbek (Uzbekistan)",
+        "uz-UZ",
+        "Plain text",
+        "uz-UZ-MadinaNeural (Female)\\nuz-UZ-SardorNeural (Male)",
+        "Not supported"
+    ],
+    [
+        "vi-VN",
+        "Vietnamese (Vietnam)",
+        "vi-VN",
+        "Plain text",
+        "vi-VN-HoaiMyNeural4,5,6 (Female)\\nvi-VN-NamMinhNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "wuu-CN",
+        "Chinese (Wu, Simplified)",
+        "wuu-CN",
+        "Audio + human-labeled transcript\\n\\nPlain text",
+        "wuu-CN-XiaotongNeural1 (Female)\\nwuu-CN-YunzheNeural1 (Male)",
+        "Not supported"
+    ],
+    [
+        "yue-CN",
+        "Chinese (Cantonese, Simplified)",
+        "yue-CN",
+        "Plain text",
+        "yue-CN-XiaoMinNeural1 (Female)\\nyue-CN-YunSongNeural1 (Male)",
+        "Not supported"
+    ],
+    [
+        "zh-CN",
+        "Chinese (Mandarin, Simplified)",
+        "zh-CN",
+        "Audio + human-labeled transcript\\n\\nPlain text\\n\\nStructured text\\n\\nPhrase list",
+        "zh-CN-XiaochenNeural4,5,6 (Female)\\nzh-CN-XiaohanNeural2,4,5,6 (Female)\\nzh-CN-XiaomengNeural1,2,4,5,6 (Female)\\nzh-CN-XiaomoNeural2,3,4,5,6 (Female)\\nzh-CN-XiaoqiuNeural4,5,6 (Female)\\nzh-CN-XiaoruiNeural2,4,5,6 (Female)\\nzh-CN-XiaoshuangNeural2,4,5,6,8 (Female)\\nzh-CN-XiaoxiaoNeural2,4,5,6 (Female)\\nzh-CN-XiaoxuanNeural2,3,4,5,6 (Female)\\nzh-CN-XiaoyanNeural4,5,6 (Female)\\nzh-CN-XiaoyiNeural1,2,4,5,6 (Female)\\nzh-CN-XiaoyouNeural4,5,6,8 (Female)\\nzh-CN-XiaozhenNeural1,2,4,5,6 (Female)\\nzh-CN-YunfengNeural1,2,4,5,6 (Male)\\nzh-CN-YunhaoNeural1,2,4,5,6 (Male)\\nzh-CN-YunjianNeural1,2,4,5,6 (Male)\\nzh-CN-YunxiaNeural1,2,4,5,6 (Male)\\nzh-CN-YunxiNeural2,3,4,5,6 (Male)\\nzh-CN-YunyangNeural2,4,5,6 (Male)\\nzh-CN-YunyeNeural2,3,4,5,6 (Male)\\nzh-CN-YunzeNeural1,2,3,4,5,6 (Male)",
+        "Custom Neural Voice Pro\\n\\nCustom Neural Voice Lite (Preview)\\n\\nCross-lingual voice (Preview)"
+    ],
+    [
+        "zh-CN-henan",
+        "Chinese (Zhongyuan Mandarin Henan, Simplified)",
+        "Not supported",
+        "Not supported",
+        "zh-CN-henan-YundengNeural1 (Male)",
+        "Not supported"
+    ],
+    [
+        "zh-CN-liaoning",
+        "Chinese (Northeastern Mandarin, Simplified)",
+        "Not supported",
+        "Not supported",
+        "zh-CN-liaoning-XiaobeiNeural1 (Female)",
+        "Not supported"
+    ],
+    [
+        "zh-CN-shaanxi",
+        "Chinese (Zhongyuan Mandarin Shaanxi, Simplified)",
+        "Not supported",
+        "Not supported",
+        "zh-CN-shaanxi-XiaoniNeural1 (Female)",
+        "Not supported"
+    ],
+    [
+        "zh-CN-shandong",
+        "Chinese (Jilu Mandarin, Simplified)",
+        "Not supported",
+        "Not supported",
+        "zh-CN-shandong-YunxiangNeural1 (Male)",
+        "Not supported"
+    ],
+    [
+        "zh-CN-sichuan",
+        "Chinese (Southwestern Mandarin, Simplified)",
+        "zh-CN-sichuan",
+        "Plain text",
+        "zh-CN-sichuan-YunxiNeural1 (Male)",
+        "Not supported"
+    ],
+    [
+        "zh-HK",
+        "Chinese (Cantonese, Traditional)",
+        "zh-HK",
+        "Plain text",
+        "zh-HK-HiuGaaiNeural4,5,6 (Female)\\nzh-HK-HiuMaanNeural4,5,6 (Female)\\nzh-HK-WanLungNeural1,4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "zh-TW",
+        "Chinese (Taiwanese Mandarin)",
+        "zh-TW",
+        "Plain text",
+        "zh-TW-HsiaoChenNeural4,5,6 (Female)\\nzh-TW-HsiaoYuNeural4,5,6 (Female)\\nzh-TW-YunJheNeural4,5,6 (Male)",
+        "Custom Neural Voice Pro"
+    ],
+    [
+        "zu-ZA",
+        "Zulu (South Africa)",
+        "zu-ZA",
+        "Plain text",
+        "zu-ZA-ThandoNeural (Female)\\nzu-ZA-ThembaNeural (Male)",
+        "Not supported"
+    ]
+]

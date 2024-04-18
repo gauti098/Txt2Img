@@ -1,0 +1,4558 @@
+{
+	"info": {
+		"_postman_id": "b4e8fb1a-aece-42c7-aad5-2fc83f2a1a32",
+		"name": "VideoAutomation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Accounts",
+			"item": [
+				{
+					"name": "User Accounts Signup",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Govind\",\r\n    \"last_name\": \"Kumar\",\r\n    \"email\": \"govind@autogenerate.ai\",\r\n    \"password\": \"!@#$%^&*\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/accounts/signup/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"signup",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Account Signup",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Govind\",\r\n    \"last_name\": \"\",\r\n    \"email\": \"govind.kumar.min17@itbhu.ac.in\",\r\n    \"password\": \"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/signup/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"signup",
+								""
+							]
+						},
+						"description": "Required Parameters:\r\n    first_name\r\n    last_name\r\n    email\r\n    password"
+					},
+					"response": []
+				},
+				{
+					"name": "Verified Email after Signup",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Govind\",\r\n    \"last_name\": \"Kumar\",\r\n    \"email\": \"govind.kumar.min17@itbhu.ac.in\",\r\n    \"password\": \"!@#$%^&*\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/accounts/signup/verify/?code=624a233bc171fe37830c4de4ca9261c52f8dc53c",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"signup",
+								"verify",
+								""
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "624a233bc171fe37830c4de4ca9261c52f8dc53c"
+								}
+							]
+						},
+						"description": "Required Parameters:\r\n    first_name\r\n    last_name\r\n    email\r\n    password"
+					},
+					"response": []
+				},
+				{
+					"name": "Accounts Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"albertgovind17@gmail.com\",\r\n    \"password\": \"!@#$%^&*\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/login/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accounts Password Reset (step 1)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"albertgovind17@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/password/reset/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"password",
+								"reset",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accounts Password Reset Code Verify",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/accounts/password/reset/verify/?code=624a233bc171fe37830c4de4ca9261c52f8dc53c",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"password",
+								"reset",
+								"verify",
+								""
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "624a233bc171fe37830c4de4ca9261c52f8dc53c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accounts Password Reset (step2)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"9e8ea95417320af7c7f9b55ac4916701ae102d65\",\r\n    \"password\": \"GoogleWorld17\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/password/reset/verified/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"password",
+								"reset",
+								"verified",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Google Social Auth",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"password\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjI1MmZjYjk3ZGY1YjZiNGY2ZDFhODg1ZjFlNjNkYzRhOWNkMjMwYzUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNjQwOTA0Mjg5MjMxLTNma2F2Njg0a2MzNTYycTJkc2dsNjBmbXQ1dTJvdmw4LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNjQwOTA0Mjg5MjMxLTNma2F2Njg0a2MzNTYycTJkc2dsNjBmbXQ1dTJvdmw4LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwODk0NDk2NTgxNTI0NDUxMTcwIiwiaGQiOiJpdGJodS5hYy5pbiIsImVtYWlsIjoiZ292aW5kLmt1bWFyLm1pbjE3QGl0Ymh1LmFjLmluIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJ0WlplY3Q0ZGQ2bHZxanZ4NXZUMmR3IiwibmFtZSI6IkdvdmluZCBLdW1hciIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHai1vdC1Eb3QydG5VNGw5b2NyZEhQU2FTS0xBMXhNc29jN2FqcHJQdz1zOTYtYyIsImdpdmVuX25hbWUiOiJHb3ZpbmQiLCJmYW1pbHlfbmFtZSI6Ikt1bWFyIiwibG9jYWxlIjoiZW4iLCJpYXQiOjE2MTAzNTY3OTcsImV4cCI6MTYxMDM2MDM5NywianRpIjoiZmFjYTI1MjAzNzA0MGNhYmQ2Yzg3MmY5ZGUxN2RkZjdiOGE2ZTRkYyJ9.BMVPDGzviu9qpb7OsnPxMKDvuLeU-Q0gNzWsKcbfibRuVN0xZiF-G4I3GvVGNvsJbistnurizQsUNxxATCXzknpeaveE76RgN7CodwJJIyQN3w_-f6uxEILlX8oXrw3KtxiUm7PzuFa1MV9L43wiB2DD9hQQUbp6LTB09oQRzOy3Xr68Zfju6GtuR1bSRKMACPaeO4ucPbXQf4SJJq8e2FeI0rzdVhqs_bB20Wm1legtPmQLP8kaz6JzEXSt9JzpWgmGmXmpBVSjhlVyM_uyoDTS0b3Z0tlXRfuyyFCF8i83OS47q1Y9G0apAjIZi2385xub5xn46GsTvo5DDg081w\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/social-auth/google/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"social-auth",
+								"google",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accounts User Info",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/accounts/user/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"user",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "FAQs",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/accounts/faqs/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"faqs",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Contact Us",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"message\": \"hey\",\r\n    \"problemCategory\": \"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/contactus/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"contactus",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User Accounts Details",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"profile_image\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/user/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"user",
+								""
+							]
+						},
+						"description": "Changable Fields:\r\n    'first_name', 'last_name','email','profile_image',      'phone_number','calendar_url','facebook_url','twitter_url','linkedin_url'"
+					},
+					"response": []
+				},
+				{
+					"name": "Accounts Password Change",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"oldpassword\": \"!@#$%^&*\",\r\n    \"newpassword\": \"!@#$%^&*\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/accounts/password/change/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"password",
+								"change",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Organization",
+			"item": [
+				{
+					"name": "Fetch Organization",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/accounts/user/organization/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"user",
+								"organization",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add User to Organization",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test32@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/user/organization/add/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"user",
+								"organization",
+								"add",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify Organization code",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/accounts/user/organization/codeverify/?code=4318cf1af5bd8fed350bc583c6a8c621344c6bc2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"user",
+								"organization",
+								"codeverify",
+								""
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "4318cf1af5bd8fed350bc583c6a8c621344c6bc2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Account Signup with Organization Code",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Govind\",\r\n    \"email\": \"govind.kumar.min17@itbhu.ac.in\",\r\n    \"password\": \"googleWorld17!\",\r\n    \"code\": \"4318cf1af5bd8fed350bc583c6a8c621344c6bc2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/signup/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"signup",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove User from Oganization",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test32@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/user/organization/remove/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"user",
+								"organization",
+								"remove",
+								""
+							]
+						},
+						"description": "Required Parameters:\r\n    email"
+					},
+					"response": []
+				},
+				{
+					"name": "Add or Remove Admin",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"sehaj@autogenerate.ai\",\r\n    \"is_admin\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/user/organization/adminchange/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"user",
+								"organization",
+								"adminchange",
+								""
+							]
+						},
+						"description": "Required Parameters:\r\n    email"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Organization",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "subdomain",
+									"value": "autogenerate.ai",
+									"type": "text"
+								},
+								{
+									"key": "logo",
+									"type": "file",
+									"src": "/C:/Users/Govind/Pictures/autogenerate.ai_logo.png"
+								},
+								{
+									"key": "fav_icon",
+									"type": "file",
+									"src": "/C:/Users/Govind/Pictures/autogenerate.ai_favicon.ico"
+								},
+								{
+									"key": "subs_end",
+									"value": "\"2021-01-27T14:07:07Z\"",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/accounts/user/organization/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"user",
+								"organization",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User Library",
+			"item": [
+				{
+					"name": "Fetch Media File",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{lurl}}/api/userlibrary/upload/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "query Media file (by image or video)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/userlibrary/upload/?type=image",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "image"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Media File By Category",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/userlibrary/upload/?category=aiVideo",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								""
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "aiVideo"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Media File By Type",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/userlibrary/upload/?type=pdf_video",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "pdf_video"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Media File By Type and Category",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{lurl}}/api/userlibrary/upload/?type=video&category=upload",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "video"
+								},
+								{
+									"key": "category",
+									"value": "upload"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Media",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "My First Contacts",
+									"type": "text"
+								},
+								{
+									"key": "media_file",
+									"type": "file",
+									"src": "/D:/Windows_installation/Documents/Python Tutorial/Python-Tut/sehaj/website/video-automation/videoAutomation/uploads/userlibrary/file/hello.csv"
+								},
+								{
+									"key": "media_thumbnail",
+									"type": "file",
+									"src": [],
+									"disabled": true
+								},
+								{
+									"key": "category",
+									"value": "groupCampaignCsv",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{lurl}}/api/userlibrary/upload/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Single Media",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/userlibrary/upload/1/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Media File",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "media_file",
+									"type": "file",
+									"src": "/C:/Users/Govind/Desktop/email_video_embed.PNG"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{lurl}}/api/userlibrary/upload/1/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								"1",
+								""
+							]
+						},
+						"description": "Optional Fields:\r\n    'name','media_file','media_thumbnail'"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Media",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/userlibrary/upload/2/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch media with pagination",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/userlibrary/upload/?limit=2&offset=2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"userlibrary",
+								"upload",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "2"
+								},
+								{
+									"key": "offset",
+									"value": "2"
+								}
+							]
+						},
+						"description": "Get Parameters:\r\n    ?limit=2&offset=2"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OtherApi(video/Image)",
+			"item": [
+				{
+					"name": "Search Image",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/bgclip/filter/?query=nigth moon&type=image",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"bgclip",
+								"filter",
+								""
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "nigth moon"
+								},
+								{
+									"key": "type",
+									"value": "image"
+								}
+							]
+						},
+						"description": "Required:\r\n    query\r\n    type=image or video"
+					},
+					"response": []
+				},
+				{
+					"name": "Image Without Search",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/bgclip/filter/?type=image",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"bgclip",
+								"filter",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "image"
+								}
+							]
+						},
+						"description": "Required:\r\n    query\r\n    type=image or video"
+					},
+					"response": []
+				},
+				{
+					"name": "Search Video",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/bgclip/filter/?query=nigth moon&type=video",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"bgclip",
+								"filter",
+								""
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "nigth moon"
+								},
+								{
+									"key": "type",
+									"value": "video"
+								}
+							]
+						},
+						"description": "Required:\r\n    query\r\n    type=image or video"
+					},
+					"response": []
+				},
+				{
+					"name": "Video Without Search",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/bgclip/filter/?type=video",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"bgclip",
+								"filter",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "video"
+								}
+							]
+						},
+						"description": "Required:\r\n    query\r\n    type=image or video"
+					},
+					"response": []
+				},
+				{
+					"name": "Upload and API mix Video",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/bgclip/filter/all/?type=video&limit=20",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"bgclip",
+								"filter",
+								"all",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "video"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								}
+							]
+						},
+						"description": "Required:\r\n    query\r\n    type=image or video"
+					},
+					"response": []
+				},
+				{
+					"name": "Upload and API mix Image",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/bgclip/filter/all/?type=image",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"bgclip",
+								"filter",
+								"all",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "image"
+								}
+							]
+						},
+						"description": "Required:\r\n    query\r\n    type=image or video"
+					},
+					"response": []
+				},
+				{
+					"name": "filter Upload and API mix Image or Video",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/bgclip/filter/all/?query=moon&type=video&offset=0",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"bgclip",
+								"filter",
+								"all",
+								""
+							],
+							"query": [
+								{
+									"key": "query",
+									"value": "moon"
+								},
+								{
+									"key": "type",
+									"value": "video"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						},
+						"description": "Required:\r\n    query\r\n    type=image or video"
+					},
+					"response": []
+				},
+				{
+					"name": "Save API Image or Video to Our Server",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 58,\r\n    \"type\": \"video\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/bgclip/save/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"bgclip",
+								"save",
+								""
+							]
+						},
+						"description": "required:\r\n    id: (Image id or video id)\r\n    type: (image or video)"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SalesPage",
+			"item": [
+				{
+					"name": "Create New Sales page (only For Staff)",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n            \"name\": \"First Sales Page\",\r\n            \"textEditor\": [\r\n                {\r\n                    \"content\": \"My First Editor\"\r\n                },\r\n                {\r\n                    \"content\": \"My Second Editor\"\r\n                },\r\n                {\r\n                    \"content\": \"My Third Editor\"\r\n                },\r\n                {\r\n                    \"content\": \"My Last Editor\"\r\n                }\r\n            ],\r\n            \"imageEditor\": [\r\n                {\r\n                    \"image\": \"http://localhost:3000/mylogo\",\r\n                    \"height\": 60,\r\n                    \"imgUrl\": \"http://google.com\"\r\n                }  \r\n            ],\r\n            \"buttonEditor\": [\r\n                {\r\n                    \"buttonData\": [\r\n                        {\r\n                            \"name\": \"Button1\",\r\n                            \"link\": \"\",\r\n                            \"textColor\": \"#FF0000\",\r\n                            \"buttonColor\": \"#FF00FF\"\r\n                        },\r\n                        {\r\n                            \"name\": \"Button2\",\r\n                            \"link\": \"http://fb.com/\",\r\n                            \"textColor\": \"#FF0000\",\r\n                            \"buttonColor\": \"#FF00FF\"\r\n                        },\r\n                        {\r\n                            \"name\": \"Button3\",\r\n                            \"link\": \"http://fb.com/\",\r\n                            \"textColor\": \"#FF0000\",\r\n                            \"buttonColor\": \"#FF00FF\"\r\n                        },\r\n                        {\r\n                            \"name\": \"Button4\",\r\n                            \"link\": \"http://fb.com/\",\r\n                            \"textColor\": \"#FF0000\",\r\n                            \"buttonColor\": \"#FF00FF\"\r\n                        }\r\n                    ]\r\n                }\r\n            ],\r\n            \"iconEditor\": [\r\n                {\r\n                    \"image\": \"http://localhost:3000/myfbicon\",\r\n                    \"link\": \"http://fb.com/\"\r\n                },\r\n                {\r\n                    \"image\": \"http://localhost:3000/mytwittericon\",\r\n                    \"link\": \"http://twitter.com/\"\r\n                },\r\n                {\r\n                    \"image\": \"http://localhost:3000/myothericon\",\r\n                    \"link\": \"http://other.com/\"\r\n                }\r\n            ],\r\n            \"videoEditor\": [\r\n                {\r\n                    \"height\": 500\r\n                }\r\n            ],\r\n            \"crouselEditor\": [\r\n                {\r\n                    \"crouselData\": [\r\n\r\n                    ]\r\n                }\r\n            ]\r\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/salespage/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								""
+							]
+						},
+						"description": "Required:\r\n        \"name\": \"First Sales Page\"\r\nOptional:\r\n        \"textEditor\": [\r\n                {\r\n                    \"content\": \"some content\"\r\n                }\r\n            ],\r\n        \"imageEditor\": [\r\n            {\r\n                \"image\" (image url)\r\n                \"height\" (integer field)\r\n                \"imgUrl\" (onclick url)\r\n            }\r\n        ],\r\n            \r\n        \"buttonEditor\": [\r\n                {\r\n                    \"buttonData\": [\r\n                        {\r\n                            \"name\": \"Button\",\r\n                            \"link\": \"\",\r\n                            \"textColor\": \"#FF0000\",\r\n                            \"buttonColor\": \"#FF00FF\"\r\n                        },\r\n                        {\r\n                            \"name\": \"Button2\",\r\n                            \"link\": \"\",\r\n                            \"textColor\": \"#FF0000\",\r\n                            \"buttonColor\": \"#FF00FF\"\r\n                        }\r\n                    ]\r\n                }\r\n            ],\r\n            \"iconEditor\": [\r\n                {\r\n                    \"image\" (icon url)\r\n                    \"link\" (onClick url)\r\n                }\r\n            ],\r\n            \"videoEditor\": [\r\n                {\r\n                    \"height\" (integer field)\r\n                }\r\n            ],\r\n            \"crouselEditor\": [\r\n                {\r\n                    \"crouselData\": [\r\n                        {\r\n                            \"id\": 1\r\n                        },\r\n                        {\r\n                            \"id\": 2\r\n                        }\r\n                    ]\r\n                }\r\n            ]\r\n        }"
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Public Template (all user can access it)",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/salespage/public/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"public",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Public Id",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/salespage/public/130/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"public",
+								"130",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Copy Sales Page Template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/salespage/2/copy/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"2",
+								"copy",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All User Sales Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/salespage/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filter or Order Sales Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/salespage/?filter=copy&order=2",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								""
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "copy"
+								},
+								{
+									"key": "order",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Single Sales Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/salespage/6/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"6",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upadate Sales Page",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Last Page\",\r\n    \"textEditor\": [\r\n        {\r\n            \"id\": 21,\r\n            \"content\": \"My First Editor Edited $firstName $name and $lastName\",\r\n            \"isDeleted\": false\r\n        }\r\n    ],\r\n    \"buttonEditor\": [\r\n        {\r\n            \"id\": 55,\r\n            \"buttonData\": [\r\n                {\r\n                    \"id\": 266,\r\n                    \"name\": \"Button1Changed\",\r\n                    \"link\": \"\",\r\n                    \"textColor\": \"#FF00FF\",\r\n                    \"buttonColor\": \"#FF00FF\",\r\n                    \"isDeleted\": false,\r\n                    \"updated\": \"2021-02-16T05:35:39.762657Z\"\r\n                },\r\n                {\r\n                    \"id\": 267,\r\n                    \"name\": \"Button2\",\r\n                    \"link\": \"http://fb.com/\",\r\n                    \"textColor\": \"#FF0000\",\r\n                    \"buttonColor\": \"#FF00FF\",\r\n                    \"isDeleted\": false,\r\n                    \"updated\": \"2021-02-16T05:35:39.766048Z\"\r\n                },\r\n                {\r\n                    \"id\": 269,\r\n                    \"name\": \"Button4Modiefied\",\r\n                    \"link\": \"http://fb.com/\",\r\n                    \"textColor\": \"#FF0000\",\r\n                    \"buttonColor\": \"#FF00FF\",\r\n                    \"isDeleted\": false,\r\n                    \"updated\": \"2021-02-16T05:35:39.772327Z\"\r\n                },\r\n                {\r\n                    \"id\": 268,\r\n                    \"name\": \"Button3Added Again\",\r\n                    \"link\": \"http://fb.com/\",\r\n                    \"textColor\": \"#FF0000\",\r\n                    \"buttonColor\": \"#FF00FF\",\r\n                    \"isDeleted\": false,\r\n                    \"updated\": \"2021-02-16T05:35:39.769211Z\"\r\n                }\r\n            ],\r\n            \"isDeleted\": false\r\n        }\r\n    ]\r\n}\r\n            ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/salespage/6/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"6",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Sales Page  Template",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "Token {{token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "Authorization",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/salespage/20/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"20",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Used Merge Tag",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/salespage/110/mergetag/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"110",
+								"mergetag",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Sales Page Merge Tag Value",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"value\": \"Govind\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"value\": \"Bob\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/salespage/6/mergetag/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"6",
+								"mergetag",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Page Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/salespage/6/details/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"6",
+								"details",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Page Details",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"favicon\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/salespage/125/details/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"salespage",
+								"125",
+								"details",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Avatars",
+			"item": [
+				{
+					"name": "Fetch All Avatars",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/avatars/image/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"avatars",
+								"image",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Single Avatars",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/avatars/image/1/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"avatars",
+								"image",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Avatar Sounds",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/avatars/sound/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"avatars",
+								"sound",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Single Avatar Sound",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/avatars/sound/1/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"avatars",
+								"sound",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Merge Tag",
+			"item": [
+				{
+					"name": "Fetch All Merge Tag",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/aivideo/mergetag/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"mergetag",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Merge Tag",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"$name\",\r\n    \"value\": \"Govind Kumar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/mergetag/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"mergetag",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Merge Tag",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"value\": \"https://autogenerate.ai/givemelife/\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/aivideo/mergetag/10/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"mergetag",
+								"10",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Single Merge Tag",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/mergetag/5/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"mergetag",
+								"5",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "VideoGeneration",
+			"item": [
+				{
+					"name": "Colors",
+					"item": [
+						{
+							"name": "Fetch All Colors",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/aivideo/colors/91/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"colors",
+										"91",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Fetch Single Color",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/colors/1/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"colors",
+										"1",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Colors",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"value\": \"#00F0F0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/aivideo/colors/91/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"colors",
+										"91",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Colors",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"black\",\r\n    \"value\": \"#000000\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/colors/1/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"colors",
+										"1",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "scene",
+					"item": [
+						{
+							"name": "Fetch All Scene in Video Template ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/template/scene/2/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"template",
+										"scene",
+										"2",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Fetch Single Scene By own ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/scene/2/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"scene",
+										"2",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add Scene to Video Template",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/scene/13/add/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"scene",
+										"13",
+										"add",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Scene By Scene ID",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"Hey {First Name}, How are you?\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/scene/2/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"scene",
+										"2",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update  TextAnimation Data to Scene By Scene ID",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"textAnimation\": {\r\n        \"textTemplateId\": 1,\r\n        \"text\": \"My Custom Texts.\\nNext Line.\\nAnother Lines.\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/scene/21/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"scene",
+										"21",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Scene By Scene ID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/scene/16/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"scene",
+										"16",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Generate Video",
+					"item": [
+						{
+							"name": "Generate Video",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}:3000/api/aivideo/template/38/generate/",
+									"host": [
+										"{{url}}"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"aivideo",
+										"template",
+										"38",
+										"generate",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Fetch all Generated Video",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/generated/video/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"generated",
+										"video",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search or Order Generated Video",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/generated/video/?filter=change&order=1",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"generated",
+										"video",
+										""
+									],
+									"query": [
+										{
+											"key": "filter",
+											"value": "change"
+										},
+										{
+											"key": "order",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Fetch Single Generated Video",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/generated/video/17/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"generated",
+										"video",
+										"17",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "snapshotUrl",
+					"item": [
+						{
+							"name": "Fetch SnapShotUrl by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{lurl}}/api/aivideo/snapshot/1/",
+									"host": [
+										"{{lurl}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"snapshot",
+										"1",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add SnapshotUrl to Video Scene",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"url\": \"$SnapshotBackground\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/aivideo/snapshot/5/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"snapshot",
+										"5",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "VideoThumbnail",
+					"item": [
+						{
+							"name": "Fetch Video Details Copy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"thumbnailType\": 1,\r\n    \"thumbnailData\": \"M\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/aivideo/video/thumbnail/38/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"aivideo",
+										"video",
+										"thumbnail",
+										"38",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Fetch Public Video Template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/aivideo/template/public/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"template",
+								"public",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Video template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/aivideo/drafts/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"drafts",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search and Order Video Template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/drafts/?filter=copy&order=1",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"drafts",
+								""
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "copy"
+								},
+								{
+									"key": "order",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Video Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/video/16/details/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"video",
+								"16",
+								"details",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Video Details",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Name Changed\",\r\n    \"tags\": \"First Tags, Second Tags\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/video/16/details/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"video",
+								"16",
+								"details",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Copy Video Template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/template/1/copy/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"template",
+								"1",
+								"copy",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Template All Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/template/16/all/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"template",
+								"16",
+								"all",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Single Video Template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/template/10/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"template",
+								"10",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Video Template",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 10,\r\n        \"name\": \"Copy First Video\",\r\n        \"avatar_image\": 1,\r\n        \"avatar_sound\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/template/10/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"template",
+								"10",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Video Template",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/template/12/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"template",
+								"12",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Used Merge Tag in Video Template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/template/16/mergetag/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"template",
+								"16",
+								"mergetag",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Value of Used Merge Tag in Video Template",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"id\": 4,\r\n        \"value\": \"Manish Kumar\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/template/11/mergetag/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"template",
+								"11",
+								"mergetag",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Video Background Music",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/music/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"music",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Text Animation Template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/aivideo/texttemplate/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"texttemplate",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Campaign",
+			"item": [
+				{
+					"name": "Fetch All Campaign",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Video Linked Campaign",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/linked/16/video/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"linked",
+								"16",
+								"video",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Salespage Linked Campagin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/linked/110/salespage/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"linked",
+								"110",
+								"salespage",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Campaign With Filter and order",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/?filter=camp&order=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								""
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "camp"
+								},
+								{
+									"key": "order",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Campaign",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Test Campaign\",\r\n    \"video\": 2,\r\n    \"salespage\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/campaign/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Campaign",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"video\": 6,\r\n    \"salespage\": 71\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/campaign/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"campaign",
+										""
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Create Campaign",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Primarary Camp.\",\r\n    \"video\": 6,\r\n    \"salespage\": 71\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/campaign/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"campaign",
+										""
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Fetch Single Campaign (Details)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"video\": 6,\r\n    \"salespage\": 71\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/campaign/e6a77810-0650-4ce5-8931-3047d9cef65c/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"e6a77810-0650-4ce5-8931-3047d9cef65c",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Campaign Details",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Campaign Name Changed\",\r\n    \"tags\": \"Common, Next\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/campaign/c42e4e09-9953-44a1-97c1-d221b0cc0eee/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"c42e4e09-9953-44a1-97c1-d221b0cc0eee",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Campaign",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"video\": 6,\r\n    \"salespage\": 71\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/campaign/1/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generate Group Campaign",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mailClient\": 2,\r\n    \"csvFile\": 1,\r\n    \"mergeTagMap\": {\r\n        \"GroupEmailId\": \"EmailId\",\r\n        \"$firstName\": \"FirstName\",\r\n        \"$SnapshotBackground\": \"LastName\",\r\n        \"$lastName\": \"LastName\",\r\n        \"$lll\": \"FirstName\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/campaign/a330af38-e11c-4027-80d5-a27465283477/group/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"a330af38-e11c-4027-80d5-a27465283477",
+								"group",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generate Solo Campaign",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"senderName\": \"Govind Kumar\",\r\n    \"$SnapshotBackground\": \"https://google.com/\",\r\n    \"$lll\": \"Hey\",\r\n    \"$firstName\": \"Manish\",\r\n    \"$lastName\": \"Doe\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/campaign/a330af38-e11c-4027-80d5-a27465283477/solo/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"a330af38-e11c-4027-80d5-a27465283477",
+								"solo",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Solo Campaign",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/campaign/a330af38-e11c-4027-80d5-a27465283477/solo/?limit=50",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"a330af38-e11c-4027-80d5-a27465283477",
+								"solo",
+								""
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Group Campaign",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/c42e4e09-9953-44a1-97c1-d221b0cc0eee/group/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"c42e4e09-9953-44a1-97c1-d221b0cc0eee",
+								"group",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Solo Campaign SalesPage Details",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"senderName\": \"Manish Kumar\",\r\n    \"$firstName\": \"Manish\",\r\n    \"$lastName\": \"Kumar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/campaign/details/e91b5521-6236-44e5-8224-4730bc746a47/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"details",
+								"e91b5521-6236-44e5-8224-4730bc746a47",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Group Campaign SalesPage Details",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"senderName\": \"Manish Kumar\",\r\n    \"$firstName\": \"Manish\",\r\n    \"$lastName\": \"Kumar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/campaign/details/512abafa-b8dc-418e-b371-74e7e444cebd/?uid=sehaj@autogenerati.ai",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"details",
+								"512abafa-b8dc-418e-b371-74e7e444cebd",
+								""
+							],
+							"query": [
+								{
+									"key": "uid",
+									"value": "sehaj@autogenerati.ai"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Group Campaign Details",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"senderName\": \"Manish Kumar\",\r\n    \"$firstName\": \"Manish\",\r\n    \"$lastName\": \"Kumar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/campaign/group/e6a77810-0650-4ce5-8931-3047d9cef65c/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"group",
+								"e6a77810-0650-4ce5-8931-3047d9cef65c",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Download Group Campaign Details",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"senderName\": \"Manish Kumar\",\r\n    \"$firstName\": \"Manish\",\r\n    \"$lastName\": \"Kumar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/campaign/group/512abafa-b8dc-418e-b371-74e7e444cebd/?download=csv",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"group",
+								"512abafa-b8dc-418e-b371-74e7e444cebd",
+								""
+							],
+							"query": [
+								{
+									"key": "download",
+									"value": "csv"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send Test Email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"albertgovind17@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/campaign/7f2af55d-48ed-4cb7-bf71-9535f44981b2/test_email/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"7f2af55d-48ed-4cb7-bf71-9535f44981b2",
+								"test_email",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Campaign Test Link SalesPage Details",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"senderName\": \"Manish Kumar\",\r\n    \"$firstName\": \"Manish\",\r\n    \"$lastName\": \"Kumar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/campaign/details/c42e4e09-9953-44a1-97c1-d221b0cc0eee/?uid=campaign_test",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"details",
+								"c42e4e09-9953-44a1-97c1-d221b0cc0eee",
+								""
+							],
+							"query": [
+								{
+									"key": "uid",
+									"value": "campaign_test"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "campaignAnalytics and Dashboard",
+			"item": [
+				{
+					"name": "Email Thumbnail Tracking Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/campaign/thumbnail/?campaign=23632aad-e297-43f5-b5b4-6336318d75cf&uid=manish@email.comy",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"campaign",
+								"thumbnail",
+								""
+							],
+							"query": [
+								{
+									"key": "campaign",
+									"value": "23632aad-e297-43f5-b5b4-6336318d75cf"
+								},
+								{
+									"key": "uid",
+									"value": "manish@email.comy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Main",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/main/?campaign=a330af38-e11c-4027-80d5-a27465283477&from=2021-03-01&to=2022-03-09",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"main",
+								""
+							],
+							"query": [
+								{
+									"key": "campaign",
+									"value": "a330af38-e11c-4027-80d5-a27465283477"
+								},
+								{
+									"key": "from",
+									"value": "2021-03-01"
+								},
+								{
+									"key": "to",
+									"value": "2022-03-09"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Campaign",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/min/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"min",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Main Dashboard",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/main/?from=2021-03-01&to=2022-03-09",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"main",
+								""
+							],
+							"query": [
+								{
+									"key": "from",
+									"value": "2021-03-01"
+								},
+								{
+									"key": "to",
+									"value": "2022-03-09"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signal Fetch",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/signal/?order=1&isRead=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"signal",
+								""
+							],
+							"query": [
+								{
+									"key": "order",
+									"value": "1"
+								},
+								{
+									"key": "isRead",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signal Update (Read || UnRead)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"isRead\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/canalytics/signal/manage/all/?isRead=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"signal",
+								"manage",
+								"all",
+								""
+							],
+							"query": [
+								{
+									"key": "isRead",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signal Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"isRead\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/signal/manage/47/",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"signal",
+								"manage",
+								"47",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Prospect Fetch",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/prospects/?campaign=1de735bf-d6ec-4a3c-99ad-951dbf5586f7",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"prospects",
+								""
+							],
+							"query": [
+								{
+									"key": "campaign",
+									"value": "1de735bf-d6ec-4a3c-99ad-951dbf5586f7"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DashBoard Prospect Fetch",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/dashboard/prospects/?&prospectstatus=1_2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"dashboard",
+								"prospects",
+								""
+							],
+							"query": [
+								{
+									"key": null,
+									"value": null
+								},
+								{
+									"key": "prospectstatus",
+									"value": "1_2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DashBoard Prospect Fetch Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/dashboard/prospects/?campaigns=1d94b8ec-36b1-463f-b58b-6374a01d7ceb",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"dashboard",
+								"prospects",
+								""
+							],
+							"query": [
+								{
+									"key": "campaigns",
+									"value": "1d94b8ec-36b1-463f-b58b-6374a01d7ceb"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Prospect Update Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"uniqueIdentity\": \"Google\",\r\n    \"prospectStatus\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/canalytics/prospects/manage/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"prospects",
+								"manage",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Solo Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/details/solo/?campaign=a330af38-e11c-4027-80d5-a27465283477",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"details",
+								"solo",
+								""
+							],
+							"query": [
+								{
+									"key": "campaign",
+									"value": "a330af38-e11c-4027-80d5-a27465283477"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Group Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/details/group/?campaign1=e6a77810-0650-4ce5-8931-3047d9cef65c",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"details",
+								"group",
+								""
+							],
+							"query": [
+								{
+									"key": "campaign1",
+									"value": "e6a77810-0650-4ce5-8931-3047d9cef65c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Single Group Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/details/groupdetails/?gcampaign=d8759e0f-806f-4610-a91f-a3b369e647df",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"details",
+								"groupdetails",
+								""
+							],
+							"query": [
+								{
+									"key": "gcampaign",
+									"value": "d8759e0f-806f-4610-a91f-a3b369e647df"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Ongoing Campaign Details (Dashboard)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/details/ongoing/?filter=second",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"details",
+								"ongoing",
+								""
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "second"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Download Ongoing Campaign",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/details/ongoing/?download=true",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"details",
+								"ongoing",
+								""
+							],
+							"query": [
+								{
+									"key": "download",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Mail Open Graph Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/graph/mailo/?fetchtype=daily",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"graph",
+								"mailo",
+								""
+							],
+							"query": [
+								{
+									"key": "fetchtype",
+									"value": "daily"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Emails for Mail Open Graph Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/emails/mailo/?fetchtype=weekly&date=2021-04-12&campaign=a330af38-e11c-4027-80d5-a27465283477",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"emails",
+								"mailo",
+								""
+							],
+							"query": [
+								{
+									"key": "fetchtype",
+									"value": "weekly"
+								},
+								{
+									"key": "date",
+									"value": "2021-04-12"
+								},
+								{
+									"key": "campaign",
+									"value": "a330af38-e11c-4027-80d5-a27465283477"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Link Open Graph Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/graph/linko/?fetchtype=daily&campaign=8f3d4bf8-8640-4c19-baf5-71ceff75384d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"graph",
+								"linko",
+								""
+							],
+							"query": [
+								{
+									"key": "fetchtype",
+									"value": "daily"
+								},
+								{
+									"key": "campaign",
+									"value": "8f3d4bf8-8640-4c19-baf5-71ceff75384d"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Emails for Link Open Graph Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/emails/linko/?fetchtype=daily&date=2021-04-13&campaign=8f3d4bf8-8640-4c19-baf5-71ceff75384d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"emails",
+								"linko",
+								""
+							],
+							"query": [
+								{
+									"key": "fetchtype",
+									"value": "daily"
+								},
+								{
+									"key": "date",
+									"value": "2021-04-13"
+								},
+								{
+									"key": "campaign",
+									"value": "8f3d4bf8-8640-4c19-baf5-71ceff75384d"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Video Played Graph Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/graph/videop/?fetchtype=weekly&comapaign=a330af38-e11c-4027-80d5-a27465283477",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"graph",
+								"videop",
+								""
+							],
+							"query": [
+								{
+									"key": "fetchtype",
+									"value": "weekly"
+								},
+								{
+									"key": "comapaign",
+									"value": "a330af38-e11c-4027-80d5-a27465283477"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch All Emails for Video Played Graph Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/emails/videop/?fetchtype=weekly&date=2021-04-05&comapaign=a330af38-e11c-4027-80d5-a27465283477",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"emails",
+								"videop",
+								""
+							],
+							"query": [
+								{
+									"key": "fetchtype",
+									"value": "weekly"
+								},
+								{
+									"key": "date",
+									"value": "2021-04-05"
+								},
+								{
+									"key": "comapaign",
+									"value": "a330af38-e11c-4027-80d5-a27465283477"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Engagement Graph Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/graph/engm/?fetchtype=daily&campaign=a330af38-e11c-4027-80d5-a27465283477",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"graph",
+								"engm",
+								""
+							],
+							"query": [
+								{
+									"key": "fetchtype",
+									"value": "daily"
+								},
+								{
+									"key": "campaign",
+									"value": "a330af38-e11c-4027-80d5-a27465283477"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch CTA Button Clicked Info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/ctad/?order=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"ctad",
+								""
+							],
+							"query": [
+								{
+									"key": "order",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Collateral Clicked Info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/canalytics/collaterald/?campaign=8f3d4bf8-8640-4c19-baf5-71ceff75384d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"collaterald",
+								""
+							],
+							"query": [
+								{
+									"key": "campaign",
+									"value": "8f3d4bf8-8640-4c19-baf5-71ceff75384d"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Mail Sent (popup)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/prospects/?type=mailsent&campaign=a330af38-e11c-4027-80d5-a27465283477",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"prospects",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "mailsent"
+								},
+								{
+									"key": "campaign",
+									"value": "a330af38-e11c-4027-80d5-a27465283477"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Link Sent (popup)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lurl}}/api/canalytics/prospects/?type=linksent&campaign=a330af38-e11c-4027-80d5-a27465283477",
+							"host": [
+								"{{lurl}}"
+							],
+							"path": [
+								"api",
+								"canalytics",
+								"prospects",
+								""
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "linksent"
+								},
+								{
+									"key": "campaign",
+									"value": "a330af38-e11c-4027-80d5-a27465283477"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Video Generation (Video Details)",
+			"item": [
+				{
+					"name": "Fetch Single Generating Video",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/aivideo/video/details/68/generate/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"video",
+								"details",
+								"68",
+								"generate",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Generated Video",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/aivideo/video/details/68/generate/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"video",
+								"details",
+								"68",
+								"generate",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generate Video",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Custom Video\",\r\n    \"{Name}\": \"Google\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/aivideo/video/details/68/generate/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"aivideo",
+								"video",
+								"details",
+								"68",
+								"generate",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Group Campaign CSV Validation + Generate",
+			"item": [
+				{
+					"name": "Fetch All Group Campaign",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/2edc48d0-e3bf-49ac-b7ec-5886a99d803e/group/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"2edc48d0-e3bf-49ac-b7ec-5886a99d803e",
+								"group",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validate CSV",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mailClient\": 0,\r\n    \"csvFile\": 271,\r\n    \"mergeTagMap\": {\r\n        \"GroupEmailId\": \"email\",\r\n        \"{Name}\": \"Name\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/campaign/2edc48d0-e3bf-49ac-b7ec-5886a99d803e/group/validate/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"2edc48d0-e3bf-49ac-b7ec-5886a99d803e",
+								"group",
+								"validate",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generate",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/2edc48d0-e3bf-49ac-b7ec-5886a99d803e/group/generate/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"2edc48d0-e3bf-49ac-b7ec-5886a99d803e",
+								"group",
+								"generate",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Validated CSV",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/campaign/2edc48d0-e3bf-49ac-b7ec-5886a99d803e/group/generate/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"campaign",
+								"2edc48d0-e3bf-49ac-b7ec-5886a99d803e",
+								"group",
+								"generate",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Video Credit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{lurl}}/api/videocredit/",
+					"host": [
+						"{{lurl}}"
+					],
+					"path": [
+						"api",
+						"videocredit",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "Token {{token}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "Authorization",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"key": "token",
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,1 @@
+This is Group Campaign Email for Campaign ({{ campaign_name }})

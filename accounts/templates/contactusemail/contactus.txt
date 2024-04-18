@@ -1,0 +1,9 @@
+Email: {{email}}
+<br>
+Location: {{country}} | {{regionName}} | {{city}}
+<br>
+Client Ip: {{userIp}}
+<br>
+Client Device: {{clientDevice}}
+<br>
+Client Browser: {{browser}}

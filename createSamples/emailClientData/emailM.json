@@ -1,0 +1,381 @@
+[
+    {
+        "name": "Automizy",
+        "url": "https://hyperise.com/img/automizy.png",
+        "data": {
+            "email": "[{emailaddress}]",
+            "p": "[{",
+            "s": "}]"
+        }
+    },
+    {
+        "name": "Aweber",
+        "url": "https://app.hyperise.io/img/data-sources/icons/aweber.png",
+        "data": {
+            "email": "{!email}",
+            "p": "{!",
+            "s": "}"
+        }
+    },
+    {
+        "name": "Benchmark Email",
+        "url": "https://hyperise.com/img/benchmark.png",
+        "data": {
+            "email": "[contact_attribute:email]",
+            "p": "[contact_attribute:",
+            "s": "]"
+        }
+    },
+    {
+        "name": "Campaign Monitor",
+        "url": "https://hyperise.com/wp-content/uploads/2019/08/c-mon.png",
+        "data": {
+            "email": "[email]",
+            "p": "[",
+            "s": "]"
+        }
+    },
+    {
+        "name": "Constant Contact",
+        "url": "https://hyperise.com/wp-content/uploads/2019/06/constantContact.png",
+        "data": {
+            "email": "{Email Address}",
+            "p": "[[",
+            "s": "]]",
+            "cmd": ["upper"]
+        }
+    },
+    {
+        "name": "ConvertKit",
+        "url": "https://hyperise.com/wp-content/uploads/2019/12/convertkit-logomark-red.jpg",
+        "data": {
+            "email": "{{subscriber.email_address}}",
+            "p": "{{subscriber.",
+            "s": "}}",
+            "cmd": ["lower","replace: :_"]
+        }
+    },
+    {
+        "name": "Elastic Email",
+        "url": "https://hyperise.com/img/elasticemail.svg",
+        "data": {
+            "email": "{email}",
+            "p": "{",
+            "s": "}",
+            "cmd": ["lower","replace: :","replace:_:"]
+        }
+    },
+    {
+        "name": "Expandi V2 Email",
+        "url": "https://hyperise.com/img/expandi_logo.png",
+        "data": {
+            "email": "{email}",
+            "p": "{",
+            "s": "}"
+        }
+    },
+    {
+        "name": "iContact",
+        "url": "https://hyperise.com/img/icontact.png",
+        "data": {
+            "email": "[email]",
+            "p": "[",
+            "s": "]"
+        }
+    },
+    {
+        "name": "Kajabi",
+        "url": "https://hyperise.com/img/kajabi-logo-icon.png",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "LemList",
+        "url": "https://hyperise.com/wp-content/uploads/2019/06/lemlist-logo.png",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "MailChimp",
+        "url": "https://app.hyperise.io/img/data-sources/icons/mailchimp.png",
+        "data": {
+            "email": "*|EMAIL|*",
+            "p": "*|",
+            "s": "|*"
+        }
+    },
+    {
+        "name": "MailerLite",
+        "url": "https://hyperise.com/wp-content/uploads/2019/06/MailerLite-logo1.png",
+        "data": {
+            "email": "{$email}",
+            "p": "{$",
+            "s": "}"
+        }
+    },
+    {
+        "name": "MailPoet",
+        "url": "https://hyperise.com/img/mailpoet.png",
+        "data": {
+            "email": "[user:email]",
+            "p": "[user:",
+            "s": "]"
+        }
+    },
+    {
+        "name": "Mailshake",
+        "url": "https://hyperise.com/wp-content/uploads/2019/06/mailshake.jpg",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "MixMax",
+        "url": "https://hyperise.com/wp-content/uploads/2019/06/logo_mixmax_vertical_2x.png",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "Moosend",
+        "url": "https://hyperise.com/wp-content/uploads/2019/06/moosend_logo.png",
+        "data": {
+            "email": "#recipient:email#",
+            "p": "#recipient:",
+            "s": "#"
+        }
+    },
+    {
+        "name": "Ontraport",
+        "url": "https://app.hyperise.io/img/data-sources/icons/ontraport.png",
+        "data": {
+            "email": "[Email]",
+            "p": "[",
+            "s": "]",
+            "cmd": ["capitalize"]
+        }
+    },
+    {
+        "name": "OpenMoves",
+        "url": "https://hyperise.com/img/openmoves-logo.png",
+        "data": {
+            "email": "@EMAIL@",
+            "p": "@",
+            "s": "@"
+        }
+    },
+    {
+        "name": "Outreach.io",
+        "url": "https://hyperise.com/img/outreach-logo.png",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "OutReachBin",
+        "url": "https://hyperise.com/img/outreachbin-logo.png",
+        "data": {
+            "email": "{{ $email }}",
+            "p": "{{ $",
+            "s": " }}"
+        }
+    },
+    {
+        "name": "PersistIQ",
+        "url": "https://hyperise.com/img/persistiq-logo.png",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "Prospect.io",
+        "url": "https://app.hyperise.io/img/data-sources/icons/prospect-io.png",
+        "data": {
+            "email": "{{prospect_email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "QuickMail",
+        "url": "https://hyperise.com/img/quickmail_logo.png",
+        "data": {
+            "email": "{{prospect.email}}",
+            "p": "{{prospect.",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "SalesHandy",
+        "url": "https://hyperise.com/wp-content/uploads/2019/09/SH_Logo.png",
+        "data": {
+            "email": "{{Email}}",
+            "p": "{{",
+            "s": "}}",
+            "cmd": ["capitalize"]
+        }
+    },
+    {
+        "name": "SalesHub Email",
+        "url": "https://hyperise.com/img/SalesHub-io.jpg",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "SalesLoft",
+        "url": "https://hyperise.com/img/salesloft_logo.png",
+        "data": {
+            "email": "{{email_address}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "Sender",
+        "url": "https://hyperise.com/img/sender.png",
+        "data": {
+            "email": "{$email}",
+            "p": "{$",
+            "s": "}"
+        }
+    },
+    {
+        "name": "SendGrid",
+        "url": "https://hyperise.com/img/SendGrid-Logomark.png",
+        "data": {
+            "email": "{{ email }}",
+            "p": "{{ ",
+            "s": " }}"
+        }
+    },
+    {
+        "name": "Smartreach",
+        "url": "https://hyperise.com/img/Smartreach.png",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "Snov.io",
+        "url": "https://app.hyperise.io/img/data-sources/icons/snov-io.png",
+        "data": {
+            "email": "{{first_name}}@{{company}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "Stackmails",
+        "url": "https://hyperise.com/wp-content/uploads/2019/06/StackMails-Logo.png",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "Stripo Email",
+        "url": "https://hyperise.com/wp-content/uploads/2019/09/stripo_logo.jpg",
+        "data": {
+            "email": "{{person.email}}",
+            "p": "{{person.",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "Wavo",
+        "url": "https://hyperise.com/img/wavo.png",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "WoodPecker",
+        "url": "https://hyperise.com/wp-content/uploads/2019/07/woodpecker_logo.png",
+        "data": {
+            "email": "{{EMAIL}}",
+            "p": "{{",
+            "s": "}}",
+            "cmd": ["capitalize"]
+        }
+    },
+    {
+        "name": "Zoho",
+        "url": "https://hyperise.com/img/zoho-logo.png",
+        "data": {
+            "email": "$[EMAIL]$",
+            "p": "$[",
+            "s": "]$",
+            "cmd": ["capitalize"]
+        }
+    },
+    {
+        "name": "ActiveCampaign",
+        "url": "https://api.autogenerate.ai/media/campaign/emailclient/actcamp.png",
+        "data": {
+            "email": "%EMAIL%",
+            "p": "%",
+            "s": "%",
+            "cmd": ["capitalize","replace: :"]
+        }
+    },
+    {
+        "name": "Hubspot",
+        "url": "https://api.autogenerate.ai/media/campaign/emailclient/hubspot.jpg",
+        "data": {
+            "email": "{{contact.email}}",
+            "p": "{{contact.",
+            "s": "}}"
+        }
+    },
+    {
+        "name": "Mailgun",
+        "url": "https://api.autogenerate.ai/media/campaign/emailclient/mailgun.png",
+        "data": {
+            "email": "%recipient.email%'",
+            "p": "%recipient.",
+            "s": "%",
+            "cmd": ["replace: :"]
+        }
+    },
+    {
+        "name": "Salesforce",
+        "url": "https://api.autogenerate.ai/media/campaign/emailclient/salesforce.png",
+        "data": {
+            "email": "{{{Recipient.Email}}}",
+            "p": "{{{Recipient.",
+            "s": "}}}",
+            "cmd": ["capitalize","replace: :"]
+        }
+    },
+    {
+        "name": "SparkPost",
+        "url": "https://api.autogenerate.ai/media/campaign/emailclient/sparkpost.jpg",
+        "data": {
+            "email": "{{email}}",
+            "p": "{{",
+            "s": "}}"
+        }
+    }
+]
